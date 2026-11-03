@@ -1,0 +1,44 @@
+{
+  "study": "Independent tolerance of four discrete frequency-setting resistors",
+  "fixed_capacitances_F": {
+    "C1": 1e-08,
+    "C2": 1e-08
+  },
+  "per_component_tolerance_percent_scenarios": [
+    1,
+    5,
+    10
+  ],
+  "per_component_levels": [
+    "lower endpoint",
+    "nominal",
+    "upper endpoint"
+  ],
+  "samples_per_target_per_tolerance": 81,
+  "physical_resistors_ohm": {
+    "770": {
+      "R1": [
+        20000,
+        620
+      ],
+      "R2": [
+        20000,
+        560
+      ]
+    },
+    "1209": {
+      "R1": [
+        13000,
+        100
+      ],
+      "R2": [
+        13000,
+        100
+      ]
+    }
+  },
+  "preferred_series": "All nominal parts are E24 values; 560 ohm and 100 ohm also belong to E12.",
+  "actual_tolerance_source": "Scenarios only; purchased resistor specifications have not been supplied.",
+  "held_fixed": "Capacitors, gain-setting resistors, supplies, temperature, load, seed and device models",
+  "plot_scope": "3x3 coherent per-leg samples in each tolerance panel; full 3^4 physical-part samples in CSV and range chart"
+}

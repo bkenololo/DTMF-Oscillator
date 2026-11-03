@@ -1,0 +1,89 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Wien oscillator results</title>
+<style>body{font:16px system-ui;max-width:1050px;margin:40px auto;padding:0 24px;color:#172536}img{max-width:100%;height:auto}table{border-collapse:collapse}td,th{border:1px solid #bbb;padding:9px}pre{white-space:pre-wrap}a{color:#135f94}</style></head><body>
+<h1>Independent Wien bridge oscillator results</h1>
+<p>1350 scenario rows; 1250 unique physical circuits. Supplied TL074 model, ±12 V supplies, 10 nF capacitors.</p>
+<p>Primary capacitor tolerance ±10%; comparisons ±1% and ±5%. Both Wien resistors and both capacitor deviations vary independently.</p>
+<p>Open <a href='RESULTS.md'>RESULTS.md</a> for interpretation and limitations. The <a href='tolerance_comparison.csv'>tolerance table</a> compares all resistor pairs.</p>
+<h2>770 Hz oscillator</h2>
+<p><a href='simulation_lookup_770Hz.csv'>Full simulation lookup CSV</a> · <a href='nominal_candidates_770Hz.csv'>Nominal candidate ranking</a></p>
+<pre>{
+  &quot;scenario_rows&quot;: 675,
+  &quot;unique_physical_circuits&quot;: 625,
+  &quot;status_counts&quot;: {
+    &quot;settled_oscillation&quot;: 625,
+    &quot;not_settled_within_run&quot;: 2,
+    &quot;no_sustained_oscillation&quot;: 48
+  },
+  &quot;simulator_failures&quot;: 0,
+  &quot;best_nominal_any_pair&quot;: {
+    &quot;case_id&quot;: &quot;f770_36a2dbd17068&quot;,
+    &quot;R1_ohm&quot;: 20680.0,
+    &quot;R2_ohm&quot;: 20680.0,
+    &quot;R1_parts_ohm&quot;: &quot;20000 + 680&quot;,
+    &quot;R2_parts_ohm&quot;: &quot;20000 + 680&quot;,
+    &quot;simulated_frequency_hz&quot;: 766.2089902806756,
+    &quot;simulated_abs_error_percent&quot;: 0.4923389245875835,
+    &quot;steady_state_vpp_v&quot;: 6.109304784557489,
+    &quot;thd_2_to_10_percent&quot;: 3.8454947797423737,
+    &quot;settling_time_s&quot;: 0.02,
+    &quot;resistor_count&quot;: 4
+  },
+  &quot;best_balanced_nominal&quot;: {
+    &quot;case_id&quot;: &quot;f770_36a2dbd17068&quot;,
+    &quot;R1_ohm&quot;: 20680.0,
+    &quot;R2_ohm&quot;: 20680.0,
+    &quot;R1_parts_ohm&quot;: &quot;20000 + 680&quot;,
+    &quot;R2_parts_ohm&quot;: &quot;20000 + 680&quot;,
+    &quot;simulated_frequency_hz&quot;: 766.2089902806756,
+    &quot;simulated_abs_error_percent&quot;: 0.4923389245875835,
+    &quot;steady_state_vpp_v&quot;: 6.109304784557489,
+    &quot;thd_2_to_10_percent&quot;: 3.8454947797423737,
+    &quot;settling_time_s&quot;: 0.02,
+    &quot;resistor_count&quot;: 4
+  }
+}</pre>
+<img src='figures/oscillator_770Hz.png' alt='Startup, waveform, FFT'>
+<img src='figures/resistor_sweep_770Hz.png' alt='R1 and R2 sweep'>
+<img src='figures/capacitor_sweep_770Hz.png' alt='C1 and C2 tolerance sweep'>
+<h2>1209 Hz oscillator</h2>
+<p><a href='simulation_lookup_1209Hz.csv'>Full simulation lookup CSV</a> · <a href='nominal_candidates_1209Hz.csv'>Nominal candidate ranking</a></p>
+<pre>{
+  &quot;scenario_rows&quot;: 675,
+  &quot;unique_physical_circuits&quot;: 625,
+  &quot;status_counts&quot;: {
+    &quot;settled_oscillation&quot;: 611,
+    &quot;no_sustained_oscillation&quot;: 63,
+    &quot;not_settled_within_run&quot;: 1
+  },
+  &quot;simulator_failures&quot;: 0,
+  &quot;best_nominal_any_pair&quot;: {
+    &quot;case_id&quot;: &quot;f1209_8971f008d1ff&quot;,
+    &quot;R1_ohm&quot;: 13000.0,
+    &quot;R2_ohm&quot;: 13150.0,
+    &quot;R1_parts_ohm&quot;: &quot;13000&quot;,
+    &quot;R2_parts_ohm&quot;: &quot;13000 + 150&quot;,
+    &quot;simulated_frequency_hz&quot;: 1210.9205985424105,
+    &quot;simulated_abs_error_percent&quot;: 0.1588584402324662,
+    &quot;steady_state_vpp_v&quot;: 6.297227504007484,
+    &quot;thd_2_to_10_percent&quot;: 3.9126542835460905,
+    &quot;settling_time_s&quot;: 0.02,
+    &quot;resistor_count&quot;: 3
+  },
+  &quot;best_balanced_nominal&quot;: {
+    &quot;case_id&quot;: &quot;f1209_fc110c6252f2&quot;,
+    &quot;R1_ohm&quot;: 13150.0,
+    &quot;R2_ohm&quot;: 13150.0,
+    &quot;R1_parts_ohm&quot;: &quot;13000 + 150&quot;,
+    &quot;R2_parts_ohm&quot;: &quot;13000 + 150&quot;,
+    &quot;simulated_frequency_hz&quot;: 1204.1731436796708,
+    &quot;simulated_abs_error_percent&quot;: 0.3992436989519579,
+    &quot;steady_state_vpp_v&quot;: 6.1094870292365195,
+    &quot;thd_2_to_10_percent&quot;: 3.8395564799507484,
+    &quot;settling_time_s&quot;: 0.02,
+    &quot;resistor_count&quot;: 4
+  }
+}</pre>
+<img src='figures/oscillator_1209Hz.png' alt='Startup, waveform, FFT'>
+<img src='figures/resistor_sweep_1209Hz.png' alt='R1 and R2 sweep'>
+<img src='figures/capacitor_sweep_1209Hz.png' alt='C1 and C2 tolerance sweep'>
+</body></html>

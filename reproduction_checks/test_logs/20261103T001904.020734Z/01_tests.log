@@ -1,0 +1,12 @@
+test_binary_parser (test_physics.PhysicsChecks.test_binary_parser) ... ok
+test_decay_not_reported_as_settled_oscillator (test_physics.PhysicsChecks.test_decay_not_reported_as_settled_oscillator) ... ok
+test_harmonic_measurement_known_signal (test_physics.PhysicsChecks.test_harmonic_measurement_known_signal) ... ok
+test_independent_grid_and_deduplication (test_physics.PhysicsChecks.test_independent_grid_and_deduplication) ... ok
+test_matched_frequency (test_physics.PhysicsChecks.test_matched_frequency) ... ok
+test_tolerance_scaling (test_physics.PhysicsChecks.test_tolerance_scaling) ... ok
+test_unequal_network_against_complex_impedances (test_physics.PhysicsChecks.test_unequal_network_against_complex_impedances) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.034s
+
+OK

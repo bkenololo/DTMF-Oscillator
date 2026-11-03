@@ -1,0 +1,34 @@
+{
+  "selection_rule": "Smallest nominal simulated frequency error among settled resistor pairs in this finite search; not a guarantee across capacitor tolerance.",
+  "C1_nominal_f": 1e-08,
+  "C2_nominal_f": 1e-08,
+  "primary_cap_tolerance_percent": 10.0,
+  "oscillators": {
+    "770": {
+      "case_id": "f770_36a2dbd17068",
+      "R1_ohm": 20680.0,
+      "R2_ohm": 20680.0,
+      "R1_parts_ohm": "20000 + 680",
+      "R2_parts_ohm": "20000 + 680",
+      "simulated_frequency_hz": 766.2089902806756,
+      "simulated_abs_error_percent": 0.4923389245875835,
+      "steady_state_vpp_v": 6.109304784557489,
+      "thd_2_to_10_percent": 3.8454947797423737,
+      "settling_time_s": 0.02,
+      "resistor_count": 4
+    },
+    "1209": {
+      "case_id": "f1209_8971f008d1ff",
+      "R1_ohm": 13000.0,
+      "R2_ohm": 13150.0,
+      "R1_parts_ohm": "13000",
+      "R2_parts_ohm": "13000 + 150",
+      "simulated_frequency_hz": 1210.9205985424105,
+      "simulated_abs_error_percent": 0.1588584402324662,
+      "steady_state_vpp_v": 6.297227504007484,
+      "thd_2_to_10_percent": 3.9126542835460905,
+      "settling_time_s": 0.02,
+      "resistor_count": 3
+    }
+  }
+}

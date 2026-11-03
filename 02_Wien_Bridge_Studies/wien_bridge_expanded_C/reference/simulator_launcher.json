@@ -1,0 +1,5 @@
+{
+  "purpose": "Cache only repeated version-banner queries; every actual simulation executes the unchanged binary.",
+  "unchanged_binary_sha256": "624d48afdd173d0409752ecb47c1aad1b68964c1eb73815767a6e16f2591bfae",
+  "matches_previous_simulator_binary": true
+}

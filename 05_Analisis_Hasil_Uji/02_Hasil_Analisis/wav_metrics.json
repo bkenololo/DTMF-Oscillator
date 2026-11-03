@@ -1,0 +1,28 @@
+{
+  "source": "1-NewFile0_DTMF_48k.wav",
+  "sample_rate_hz": 48000,
+  "samples": 22346,
+  "file_duration_s": 0.4655416666666667,
+  "active_span_s": 0.06554166666666666,
+  "active_start_s": 0.2,
+  "pcm_peak": 0.8000122074037904,
+  "estimated_frequencies_hz": [
+    763.6276588343317,
+    1172.1255277840253
+  ],
+  "twist_db": -2.041104076434046,
+  "voltage_scale_note": "PCM is normalized; WAV has no physical volt calibration without CSV conversion factor.",
+  "best_joint_frame": {
+    "start_s": 0.24,
+    "energies": {
+      "697": 0.002479877244426448,
+      "770": 0.12713356211487029,
+      "852": 0.0019943056103706464,
+      "941": 0.0007892467864212615,
+      "1209": 0.019675429676727866,
+      "1336": 0.00012553251745885637,
+      "1477": 2.7378614724708746e-05,
+      "1633": 9.802614438545552e-06
+    }
+  }
+}

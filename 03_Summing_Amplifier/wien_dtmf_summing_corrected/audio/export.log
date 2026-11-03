@@ -1,0 +1,79 @@
+{
+  "expected_digit": "4",
+  "expected_nominal_frequencies_hz": [
+    770,
+    1209
+  ],
+  "intermediate_rate_hz": 960000,
+  "antialias_filter": "Kaiser-windowed sinc; beta 8.6; 48*decimation_factor+1 taps; cutoff 0.45*output_rate; reflect-padded linear convolution.",
+  "scaling": "One common volts-per-fullscale factor from the nominal physical output, shared by every export. Output PCM peak is approximately 0.8 full scale.",
+  "steady_source_interval_s": [
+    0.2,
+    0.5
+  ],
+  "silence_lead_and_trail_s": 0.1,
+  "repeated_between_burst_silence_s": 0.15,
+  "remark": "Steady and repeated files add digital silence for decoder testing; they do not model switching in the circuit. Prefer the 48 kHz steady file. 8 kHz is provided for narrowband decoders.",
+  "files": [
+    {
+      "file": "dtmf_4_startup_48k.wav",
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "pcm_bits": 16,
+      "duration_s": 0.5,
+      "volts_per_fullscale": 3.4676961782715607,
+      "decoded_by_basic_sanity_check": "4",
+      "source": "Actual simulated output, linearly resampled with explicit FIR antialias filter. No sine regeneration, selective harmonic removal, or independent tone normalization; only the documented antialias filter and common linear scaling."
+    },
+    {
+      "file": "dtmf_4_steady_48k.wav",
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "pcm_bits": 16,
+      "duration_s": 0.5,
+      "volts_per_fullscale": 3.4676961782715607,
+      "decoded_by_basic_sanity_check": "4",
+      "source": "Actual simulated output, linearly resampled with explicit FIR antialias filter. No sine regeneration, selective harmonic removal, or independent tone normalization; only the documented antialias filter and common linear scaling."
+    },
+    {
+      "file": "dtmf_4_repeated_48k.wav",
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "pcm_bits": 16,
+      "duration_s": 1.4,
+      "volts_per_fullscale": 3.4676961782715607,
+      "decoded_by_basic_sanity_check": "444",
+      "source": "Actual simulated output, linearly resampled with explicit FIR antialias filter. No sine regeneration, selective harmonic removal, or independent tone normalization; only the documented antialias filter and common linear scaling."
+    },
+    {
+      "file": "dtmf_4_startup_8k.wav",
+      "sample_rate_hz": 8000,
+      "channels": 1,
+      "pcm_bits": 16,
+      "duration_s": 0.5,
+      "volts_per_fullscale": 3.4676961782715607,
+      "decoded_by_basic_sanity_check": "4",
+      "source": "Actual simulated output, linearly resampled with explicit FIR antialias filter. No sine regeneration, selective harmonic removal, or independent tone normalization; only the documented antialias filter and common linear scaling."
+    },
+    {
+      "file": "dtmf_4_steady_8k.wav",
+      "sample_rate_hz": 8000,
+      "channels": 1,
+      "pcm_bits": 16,
+      "duration_s": 0.5,
+      "volts_per_fullscale": 3.4676961782715607,
+      "decoded_by_basic_sanity_check": "4",
+      "source": "Actual simulated output, linearly resampled with explicit FIR antialias filter. No sine regeneration, selective harmonic removal, or independent tone normalization; only the documented antialias filter and common linear scaling."
+    },
+    {
+      "file": "dtmf_4_repeated_8k.wav",
+      "sample_rate_hz": 8000,
+      "channels": 1,
+      "pcm_bits": 16,
+      "duration_s": 1.4,
+      "volts_per_fullscale": 3.4676961782715607,
+      "decoded_by_basic_sanity_check": "444",
+      "source": "Actual simulated output, linearly resampled with explicit FIR antialias filter. No sine regeneration, selective harmonic removal, or independent tone normalization; only the documented antialias filter and common linear scaling."
+    }
+  ]
+}

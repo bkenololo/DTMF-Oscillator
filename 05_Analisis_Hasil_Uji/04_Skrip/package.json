@@ -1,0 +1,7 @@
+{
+  "name": "wien-dtmf-lab-rendering",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local SVG to PNG rendering for the archived DTMF lab analysis",
+  "dependencies": {"sharp": "^0.34.0"}
+}

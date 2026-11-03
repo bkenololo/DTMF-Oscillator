@@ -1,0 +1,61 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: wien oscillator 770 hz / f770_20f657de0f8a
+
+binary raw file "waveform.raw"
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+No. of Data Columns : 2  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vcc                                         12
+vee                                        -12
+xop.11                                -11.6546
+xop.12                                -11.6545
+xop.6                             -4.83932e-09
+xop.7                              3.40151e-05
+out                                3.38569e-05
+xop.53                                     9.8
+xop.54                                    -9.8
+xop.90                             1.05501e-06
+xop.91                                      25
+xop.92                                     -25
+xop.99                                       0
+xop.10                               -0.398583
+inv                                1.01296e-05
+wien                              -8.40952e-07
+xop.9                                        0
+xop.8                              3.40151e-05
+series_rc                          3.38569e-05
+diode_junction                     1.80317e-05
+h.xop.hlim#branch                 -2.11002e-18
+v.xop.vlim#branch                  1.05501e-09
+v.xop.vln#branch                  -2.50008e-11
+v.xop.vlp#branch                  -2.50008e-11
+v.xop.ve#branch                    9.80083e-12
+v.xop.vc#branch                    9.80077e-12
+v.xop.vb#branch                   -4.83927e-14
+vnegative#branch                     0.0113946
+vpositive#branch                    -0.0113943
+a$poly$e.xop.egnd#branch_1_0      -3.89538e-07
+
+
+No. of Data Rows : 100649
+
+Total analysis time (seconds) = 1.16171
+
+Total elapsed time (seconds) = 1.171 
+
+Total DRAM available = 8192.000 MB.
+DRAM currently available = 2065.641 MB.
+Maximum ngspice program size =    4.391 MB.
+Current ngspice program size =    4.391 MB.
+

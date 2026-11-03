@@ -1,0 +1,11 @@
+{
+  "tl074_original_filename": "TL074.301",
+  "original_sha256": "a5f384a32ed660490d7ad57b82ddad836dfcf3b462d9dd8987e8fd4de603b1f3",
+  "normalized_sha256": "2a6ba098bacc02ade217d9999809cc08161c2628b21cd55e90cf70c825b2b7ea",
+  "normalization": "Remove DOS 0x1a EOF marker; normalize CRLF to LF; no device or circuit parameter changes.",
+  "model_header_supply_note_V": 15,
+  "simulation_supply_magnitude_V": 12,
+  "diode_source": "https://github.com/FabriceSalvaire/PySpice/blob/master/examples/libraries/diode/switching/1N4148.lib",
+  "diode_original_publisher": "NXP Semiconductors; archived manufacturer model, not a newly fitted model.",
+  "diode_model_sha256": "db2ee7a82fd6398c2abb233b03e27f76fa2df1aca33a252adc24696b8764f8a7"
+}

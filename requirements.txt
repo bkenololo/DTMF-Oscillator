@@ -1,0 +1,5 @@
+# Python 3.10+; native ngspice and optional LTspice/Node are installed separately.
+numpy>=2.0,<3
+matplotlib>=3.9,<4
+Pillow>=10,<13
+openpyxl>=3.1,<4

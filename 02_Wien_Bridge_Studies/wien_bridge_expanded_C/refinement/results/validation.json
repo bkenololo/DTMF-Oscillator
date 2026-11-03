@@ -1,0 +1,73 @@
+{
+  "models_match_recorded_hashes": true,
+  "oscillators": {
+    "770": {
+      "scenario_rows": 675,
+      "unique_physical_circuits": 625,
+      "rows_per_C_and_tolerance": [
+        225
+      ],
+      "nominal_capacitance_values_nF": [
+        10.0
+      ],
+      "simulator_failures": 0,
+      "statuses": {
+        "settled_oscillation": 675
+      }
+    },
+    "1209": {
+      "scenario_rows": 675,
+      "unique_physical_circuits": 625,
+      "rows_per_C_and_tolerance": [
+        225
+      ],
+      "nominal_capacitance_values_nF": [
+        10.0
+      ],
+      "simulator_failures": 0,
+      "statuses": {
+        "settled_oscillation": 675
+      }
+    }
+  },
+  "unique_physical_circuits": 1250,
+  "total_scenario_rows": 1350,
+  "numerical_checks": [
+    {
+      "target_hz": 770,
+      "R1_ohm": 20620.0,
+      "R2_ohm": 20560.0,
+      "original_maximum_timestep_s": 5e-06,
+      "refined_maximum_timestep_s": 2.5e-06,
+      "original_frequency_hz": 769.5837490130649,
+      "refined_frequency_hz": 769.6108253055984,
+      "original_vpp_v": 6.0623731036666,
+      "refined_vpp_v": 6.062361624801825,
+      "original_thd_percent": 3.8253442437204415,
+      "refined_thd_percent": 3.8276813523916107,
+      "original_status": "settled_oscillation",
+      "refined_status": "settled_oscillation",
+      "simulation_status": "ok",
+      "frequency_change_percent": 0.0035181797920692992,
+      "C_nominal_f": 1e-08
+    },
+    {
+      "target_hz": 1209,
+      "R1_ohm": 13082.0,
+      "R2_ohm": 13110.0,
+      "original_maximum_timestep_s": 5e-06,
+      "refined_maximum_timestep_s": 2.5e-06,
+      "original_frequency_hz": 1209.0978384524221,
+      "refined_frequency_hz": 1209.1982171654236,
+      "original_vpp_v": 6.144114608855222,
+      "refined_vpp_v": 6.144101325474955,
+      "original_thd_percent": 3.8538676106247736,
+      "refined_thd_percent": 3.858051743957595,
+      "original_status": "settled_oscillation",
+      "refined_status": "settled_oscillation",
+      "simulation_status": "ok",
+      "frequency_change_percent": 0.008301262074031542,
+      "C_nominal_f": 1e-08
+    }
+  ]
+}

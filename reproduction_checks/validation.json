@@ -1,0 +1,61 @@
+{
+  "checked_utc": "2026-11-03T00:20:30.677915+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "existing_unit_tests_passed": 25,
+  "schematic_symbol_model_files_matching_existing_masters_byte_for_byte": 22,
+  "full_hierarchy_component_count": 38,
+  "connectivity": {
+    "electrically_isomorphic_to_original_refined_circuit": true,
+    "reference_components": 38,
+    "generated_components": 38,
+    "interfaces_match": true,
+    "unconnected_pins": 0,
+    "shorted_named_nets": 0,
+    "preview_note": "Rendered from the ASC/ASY source geometry; not an LTspice screenshot."
+  },
+  "ltspice_native_runs": [
+    {
+      "circuit": "DTMF4",
+      "ok": true,
+      "returncode": 0,
+      "elapsed_s": 7.912567166000372,
+      "netlist_sha256": "56b45c664cc3129063121bb170b54b414d216f54cdcd65e7f687a1943c7046c3"
+    },
+    {
+      "circuit": "Test_LowOscillator",
+      "ok": true,
+      "returncode": 0,
+      "elapsed_s": 1.7683468339964747,
+      "netlist_sha256": "6e14e6bb939e00116155d84c724a21cb40d0d1b5cb44311096fb8bfaae50a49a"
+    },
+    {
+      "circuit": "Test_HighOscillator",
+      "ok": true,
+      "returncode": 0,
+      "elapsed_s": 1.735188917024061,
+      "netlist_sha256": "163779c2e788043f5903992fa6214310db06351c6c89c63e26c682dce39f2dc4"
+    },
+    {
+      "circuit": "Test_SummingAmplifier",
+      "ok": true,
+      "returncode": 0,
+      "elapsed_s": 1.486016082984861,
+      "netlist_sha256": "01745a21fe06c667b9b78bbac17cee14666cf5322a8795dd5b1642d53a2faa03"
+    }
+  ],
+  "ngspice_nominal": {
+    "low_simulated_frequency_hz": 769.6123244687162,
+    "high_simulated_frequency_hz": 1209.2114502240242,
+    "output_peak_to_peak_v": 5.548319171826005,
+    "measured_gain_low_magnitude": 0.45454183708727786,
+    "measured_gain_high_magnitude": 0.4545395026395979
+  },
+  "simulation_wav_export_and_basic_decoder": "passed; steady digit 4 and repeated digit 444",
+  "standalone_pinned_5us_frequencies_match_frozen_table": true,
+  "lab_reanalysis_and_offline_decoder_replay": "passed on workspace copy of archived evidence using existing Node/sharp",
+  "pinned_tolerance_grid_rows_checked": 486,
+  "dry_run_all_stages_from_another_working_directory": "passed",
+  "full_historical_and_tolerance_sweeps_rerun": false,
+  "ltspice_gui_hierarchy_traversal_verified": false,
+  "scope": "New workflow verified on workspace copies; existing study results and original lab evidence were not regenerated during installation."
+}

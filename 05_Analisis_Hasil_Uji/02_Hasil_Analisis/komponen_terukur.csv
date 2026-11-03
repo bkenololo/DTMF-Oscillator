@@ -1,0 +1,28 @@
+component,nominal,measured,unit,deviation_percent,listed_tolerance_percent,outside_listed_tolerance,source,measurement_method
+770 seri R besar,20000,20020,Ω,0.09999999999998899,1,False,Komponen dan koneksi!B5:E5,Not documented: in-circuit vs isolated unknown
+770 seri R kecil,620,620,Ω,0.0,1,False,Komponen dan koneksi!B6:E6,Not documented: in-circuit vs isolated unknown
+770 shunt R besar,20000,19690,Ω,-1.5499999999999958,1,True,Komponen dan koneksi!B7:E7,Not documented: in-circuit vs isolated unknown
+770 shunt R kecil,560,562,Ω,0.3571428571428559,1,False,Komponen dan koneksi!B8:E8,Not documented: in-circuit vs isolated unknown
+1209 seri R besar,13000,12820,Ω,-1.3846153846153841,1,True,Komponen dan koneksi!B9:E9,Not documented: in-circuit vs isolated unknown
+1209 seri R kecil,82,81.2,Ω,-0.9756097560975618,1,False,Komponen dan koneksi!B10:E10,Not documented: in-circuit vs isolated unknown
+1209 shunt R besar,13000,12800,Ω,-1.538461538461533,1,True,Komponen dan koneksi!B11:E11,Not documented: in-circuit vs isolated unknown
+1209 shunt R kecil,110,108.14963014331946,Ω,-1.6821544151641277,,,Komponen dan koneksi!B12:E12,Not documented: in-circuit vs isolated unknown
+"Pengganti 110 Ω, part 1",220,215.9,Ω,-1.8636363636363562,,,Komponen dan koneksi!B13:E13,Not documented: in-circuit vs isolated unknown
+"Pengganti 110 Ω, part 2",220,216.7,Ω,-1.5000000000000013,,,Komponen dan koneksi!B14:E14,Not documented: in-circuit vs isolated unknown
+770 C seri,10,10.23,nF,2.300000000000013,10,False,Komponen dan koneksi!B15:E15,Not documented: in-circuit vs isolated unknown
+770 C shunt,10,10.07,nF,0.7000000000000117,10,False,Komponen dan koneksi!B16:E16,Not documented: in-circuit vs isolated unknown
+1209 C seri,10,10.12,nF,1.200000000000001,10,False,Komponen dan koneksi!B17:E17,Not documented: in-circuit vs isolated unknown
+1209 C shunt,10,10.34,nF,3.400000000000003,10,False,Komponen dan koneksi!B18:E18,Not documented: in-circuit vs isolated unknown
+770 Rg,10000,9050,Ω,-9.499999999999996,1,True,Komponen dan koneksi!B19:E19,Not documented: in-circuit vs isolated unknown
+770 feedback tetap,15000,14820,Ω,-1.200000000000001,1,True,Komponen dan koneksi!B20:E20,Not documented: in-circuit vs isolated unknown
+770 feedback dibatasi,7500,7340,Ω,-2.1333333333333315,1,True,Komponen dan koneksi!B21:E21,Not documented: in-circuit vs isolated unknown
+1209 Rg,10000,9520,Ω,-4.800000000000004,1,True,Komponen dan koneksi!B22:E22,Not documented: in-circuit vs isolated unknown
+1209 feedback tetap,15000,14950,Ω,-0.33333333333332993,1,False,Komponen dan koneksi!B23:E23,Not documented: in-circuit vs isolated unknown
+1209 feedback dibatasi,7500,7430,Ω,-0.9333333333333305,1,False,Komponen dan koneksi!B24:E24,Not documented: in-circuit vs isolated unknown
+Summer input rendah,22000,20520,Ω,-6.727272727272727,1,True,Komponen dan koneksi!B25:E25,Not documented: in-circuit vs isolated unknown
+Summer input tinggi,22000,20500,Ω,-6.818181818181824,1,True,Komponen dan koneksi!B26:E26,Not documented: in-circuit vs isolated unknown
+Summer feedback,10000,9730,Ω,-2.7000000000000024,1,True,Komponen dan koneksi!B27:E27,Not documented: in-circuit vs isolated unknown
+Decoupling positif keramik,100,103.2,nF,3.200000000000003,,,Komponen dan koneksi!B30:E30,Not documented: in-circuit vs isolated unknown
+Decoupling positif elektrolit,10,10.23,µF,2.300000000000013,,,Komponen dan koneksi!B31:E31,Not documented: in-circuit vs isolated unknown
+Decoupling negatif keramik,100,101.6,nF,1.6000000000000014,,,Komponen dan koneksi!B32:E32,Not documented: in-circuit vs isolated unknown
+Decoupling negatif elektrolit,10,10.55,µF,5.500000000000016,,,Komponen dan koneksi!B33:E33,Not documented: in-circuit vs isolated unknown

@@ -1,0 +1,101 @@
+{
+  "started_utc": "20261103T001916.497309Z",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "executable": "/Users/bkent/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "packages": {
+    "numpy": "2.3.5",
+    "matplotlib": null,
+    "Pillow": "12.3.0",
+    "openpyxl": "3.1.5"
+  },
+  "project_root": "/Users/bkent/.codex/.chatgpt-projects/g-p-6abf46ea21888191bc39a010593d8a4a/outputs/reproducibility_update/test_project",
+  "stages": [
+    "standalone",
+    "lab"
+  ],
+  "simulator_overrides": {
+    "NGSPICE": "/Users/bkent/Documents/Academic/ITB/Semester Ganjil 26:27/Elektronika II/2026/Proyek/Oscillator/03_Summing_Amplifier/wien_dtmf_summing_corrected/tools/ngspice/bin/ngspice",
+    "NODE_BIN": "/Users/bkent/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "SHARP_MODULE": "/Users/bkent/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp"
+  },
+  "source_sha256": {
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/config.json": "8bd67aa8b22641cc35e7f2048cb921316ec4e5833cdd0b276c4612d914dd155a",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/models/1N4148.lib": "db2ee7a82fd6398c2abb233b03e27f76fa2df1aca33a252adc24696b8764f8a7",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/models/TL074.301": "a5f384a32ed660490d7ad57b82ddad836dfcf3b462d9dd8987e8fd4de603b1f3",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/models/TL074_ngspice.lib": "2a6ba098bacc02ade217d9999809cc08161c2628b21cd55e90cf70c825b2b7ea",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/resistor_tolerance_table_values/run_resistor_tolerance.py": "93c24dca50326e2b8302997d8e31a74d4a41eb82da21e2d94aeb811a78802f23",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/resistor_tolerance_table_values/selected_parameters.json": "c211df23f91d5654548a0a10d06b8c808598cd9e0e1bbf2248c8af1f4a1831db",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/run.py": "dcdcb5e00506d7cd0e489eafc2cc1198b62244d6c5e9a59f2069dc22b9d511f5",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/run_refinement.py": "a3547389d37107efa2fb1465c6902e1775cca30d2b787d2c6639b8e24f6a4b16",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/scripts/combine_results.py": "c667eac50150e1e45669d22a33c0451b4903464cce02f9f1187365c16393daab",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/scripts/render_plots.py": "3394473a035accf69748bbbde279e80df3e10ad044ccd94b67d2b86a185aee5a",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/scripts/validate_results.py": "c1d5a45567a45b738864801f6f498975d918edbefa4fae50bb03c6ea6bed2ef3",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/scripts/verify_finalists.py": "86c7431e65fbbb85c97105b576fe3072dc7e4d7e6e09a32f4cbf14860c1039bb",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/src/expanded_reporting.py": "28fd789d705dcb4fd32bd3a0a6ee392af9c69f73c9b173cc8aeddb9f46f14d6d",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/src/reporting.py": "2604e5b22d30e64e56dc06ccbf668c62ba204367422dd99983a87f681b805c99",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/src/wien.py": "b23f13739db353cae8826da91de4fde536dd60ed67a97cfb3f5206cefe6ba04d",
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/tests/test_physics.py": "05062713aa517fedb2fdd8f450f2a37ab50454d7cde02342783c7e53d1b54b44",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/config.json": "607c4de38645c79bddbf694882d9f445aa6e4307dacc52b71da3c4cc09e5db73",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/models/1N4148.lib": "db2ee7a82fd6398c2abb233b03e27f76fa2df1aca33a252adc24696b8764f8a7",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/models/TL074.301": "a5f384a32ed660490d7ad57b82ddad836dfcf3b462d9dd8987e8fd4de603b1f3",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/models/TL074_ngspice.lib": "2a6ba098bacc02ade217d9999809cc08161c2628b21cd55e90cf70c825b2b7ea",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/run.py": "dcdcb5e00506d7cd0e489eafc2cc1198b62244d6c5e9a59f2069dc22b9d511f5",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/scripts/render_plots.py": "46bc2ae0c799763a0ae5ecb21133741a716f6259aaf7580c688bca557b1419e6",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/scripts/validate_results.py": "f4eb075309eceae8e725b246a3d779a87a87417a285d535e702915e0e455057d",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/src/reporting.py": "5123e90937b1767ad8f91f191e67373c19d7091759089490668724f0ff2a0db0",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/src/wien.py": "e86ed233b06ef8ac2ff0f3a5d81331d718c15ff4e8e9c7094ce544fc2321deb5",
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/tests/test_physics.py": "c6fa2902cd2edcb8e1073da4e27c4daac453b16667a1685a5bbefb14926cd22f",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/1N4148.lib": "db2ee7a82fd6398c2abb233b03e27f76fa2df1aca33a252adc24696b8764f8a7",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/TL074_original.301": "a5f384a32ed660490d7ad57b82ddad836dfcf3b462d9dd8987e8fd4de603b1f3",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/reference/circuit.cir": "c2f3f08fa64598fdd0b17b25ee8457992d428cb1852dc7f10c7ae7b828fedddf",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/scripts/build_project.py": "475a7f680d26ba5d79032d91e60a7a1bac60c22bbba874d8fef9fb30a5391650",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/scripts/check_project.py": "491c952b29cb6724242e79a0f4f5f3b86c5d078d9214a7e136fb435e60527aaa",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/scripts/reproduce.py": "c9c64319258155699c208b3bbd510eca1472cb7062c7a6a1d6250fcc3f366b86",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/config.json": "3593fec2aaa8b01c737ffc0402a945e78b309c20de1ebd7f063de802aff54f9f",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/models/1N4148.lib": "db2ee7a82fd6398c2abb233b03e27f76fa2df1aca33a252adc24696b8764f8a7",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/models/TL074.301": "a5f384a32ed660490d7ad57b82ddad836dfcf3b462d9dd8987e8fd4de603b1f3",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/models/TL074_ngspice.lib": "2a6ba098bacc02ade217d9999809cc08161c2628b21cd55e90cf70c825b2b7ea",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/reference/user_selected_table.json": "c211df23f91d5654548a0a10d06b8c808598cd9e0e1bbf2248c8af1f4a1831db",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/run.py": "4f13d5a273cb54c21635358c91d1cd48aee597319428f9148ee6808c346c341d",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/scripts/check_standalone.py": "f150bb638a4f9c9fd72eddeb349183f448408d03b96e627add925e1f266c2943",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/scripts/decode_wav.py": "9baf2a507c2708daab5e72e3eb5451c1869a7dc50dffddef0d94ebe7dac08322",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/scripts/export_audio.py": "7ec44f908d25c093afedd6630b3c876f3dfaab258d2cfb9b150b790dddc1ea0c",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/scripts/make_report.py": "a2985ee47bd637f549fb30d1c0559aa2244fea28d2feff22469ef3f909722ae8",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/src/audio_export.py": "cb94888ba628010c642d056ad593c1da3d85dda714b907a8c1a40418178ddff1",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/src/summing.py": "52b7fb763ec69c83c650e07e7fd4bd7b66bf7e3218f9f90d0b09c47581ef15de",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/src/wien_reference.py": "b23f13739db353cae8826da91de4fde536dd60ed67a97cfb3f5206cefe6ba04d",
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/tests/test_signals.py": "372aadc92cb30930806719a1cdfadac55728c6cc0bb0c54546a3e3364755d555",
+    "05_Analisis_Hasil_Uji/04_Skrip/analyze.py": "f3d93c8b95e927122420cb4fa27c7de5abf7f36680fa898c50e0dbaae30c2764",
+    "05_Analisis_Hasil_Uji/04_Skrip/package.json": "a4a4ac63257c44bda8e0805efba68984bf19d4ec4e435e52d769626a0945bc25",
+    "05_Analisis_Hasil_Uji/04_Skrip/render.cjs": "b770733751efed013637936712a3578050d3b937785e5ba14aaf70e2e890dd2d",
+    "05_Analisis_Hasil_Uji/04_Skrip/replay_decoder.cjs": "7ada6a598a1b4771819257753c72d860da3cc0541d9291861787ee386a194fbc",
+    "reproduce.py": "11f781a2133d7c53595334098b585a858e389d794d87c962ac1e5804c9445d7f",
+    "requirements.txt": "072a9c292c81096f66f8c1d29e6a530ed2adfb3de5dfe724e15d3f751c2870f7"
+  },
+  "runs": [
+    {
+      "stage": "standalone",
+      "cwd": "/Users/bkent/.codex/.chatgpt-projects/g-p-6abf46ea21888191bc39a010593d8a4a/outputs/reproducibility_update/test_project/03_Summing_Amplifier/wien_dtmf_summing_corrected",
+      "command": [
+        "/Users/bkent/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/check_standalone.py"
+      ],
+      "log": "01_standalone.log",
+      "status": "passed",
+      "returncode": 0,
+      "elapsed_s": 5.853403458982939
+    },
+    {
+      "stage": "lab",
+      "cwd": "/Users/bkent/.codex/.chatgpt-projects/g-p-6abf46ea21888191bc39a010593d8a4a/outputs/reproducibility_update/test_project/05_Analisis_Hasil_Uji",
+      "command": [
+        "/Users/bkent/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "04_Skrip/analyze.py"
+      ],
+      "log": "02_lab.log",
+      "status": "passed",
+      "returncode": 0,
+      "elapsed_s": 2.046071832999587
+    }
+  ]
+}

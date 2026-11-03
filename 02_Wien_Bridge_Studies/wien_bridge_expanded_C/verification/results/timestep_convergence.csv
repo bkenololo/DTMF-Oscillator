@@ -1,0 +1,3 @@
+target_hz,R1_ohm,R2_ohm,original_maximum_timestep_s,refined_maximum_timestep_s,original_frequency_hz,refined_frequency_hz,original_vpp_v,refined_vpp_v,original_thd_percent,refined_thd_percent,original_status,refined_status,simulation_status,frequency_change_percent
+770,20620.0,20560.0,1.25e-06,6.25e-07,769.6176096158637,769.619305764604,6.062360690554339,6.062360580492917,3.828199865774394,3.828384498088916,settled_oscillation,settled_oscillation,ok,0.0002203880188003435
+1209,13100.0,13100.0,1.25e-06,6.25e-07,1208.8873484352048,1208.893914568933,6.109471234958514,6.109470795876041,3.844742668183886,3.845183244011865,settled_oscillation,settled_oscillation,ok,0.0005431521864015395

@@ -1,0 +1,18 @@
+{
+  "models/TL074.301": {
+    "source_sha256": "a5f384a32ed660490d7ad57b82ddad836dfcf3b462d9dd8987e8fd4de603b1f3",
+    "copy_sha256": "a5f384a32ed660490d7ad57b82ddad836dfcf3b462d9dd8987e8fd4de603b1f3"
+  },
+  "models/TL074_ngspice.lib": {
+    "source_sha256": "2a6ba098bacc02ade217d9999809cc08161c2628b21cd55e90cf70c825b2b7ea",
+    "copy_sha256": "2a6ba098bacc02ade217d9999809cc08161c2628b21cd55e90cf70c825b2b7ea"
+  },
+  "models/1N4148.lib": {
+    "source_sha256": "db2ee7a82fd6398c2abb233b03e27f76fa2df1aca33a252adc24696b8764f8a7",
+    "copy_sha256": "db2ee7a82fd6398c2abb233b03e27f76fa2df1aca33a252adc24696b8764f8a7"
+  },
+  "tools/ngspice/bin/ngspice-real": {
+    "source_sha256": "624d48afdd173d0409752ecb47c1aad1b68964c1eb73815767a6e16f2591bfae",
+    "copy_sha256": "624d48afdd173d0409752ecb47c1aad1b68964c1eb73815767a6e16f2591bfae"
+  }
+}

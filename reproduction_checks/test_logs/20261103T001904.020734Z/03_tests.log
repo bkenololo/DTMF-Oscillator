@@ -1,0 +1,13 @@
+test_audio_antialias_filter_preserves_passband_and_rejects_alias (test_signals.SignalChecks.test_audio_antialias_filter_preserves_passband_and_rejects_alias) ... ok
+test_basic_decoder_detects_four_and_rejects_single_tone_and_silence (test_signals.SignalChecks.test_basic_decoder_detects_four_and_rejects_single_tone_and_silence) ... ok
+test_four_channels_and_physical_series_parts_in_netlist (test_signals.SignalChecks.test_four_channels_and_physical_series_parts_in_netlist) ... ok
+test_full_factorial_endpoints_and_selected_values (test_signals.SignalChecks.test_full_factorial_endpoints_and_selected_values) ... ok
+test_inverting_sum_gain_and_phase_against_known_signals (test_signals.SignalChecks.test_inverting_sum_gain_and_phase_against_known_signals) ... ok
+test_multiple_vector_binary_parser_preserves_units (test_signals.SignalChecks.test_multiple_vector_binary_parser_preserves_units) ... ok
+test_pcm_round_trip_calibration (test_signals.SignalChecks.test_pcm_round_trip_calibration) ... ok
+test_summer_tolerance_gains_against_kcl (test_signals.SignalChecks.test_summer_tolerance_gains_against_kcl) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.053s
+
+OK

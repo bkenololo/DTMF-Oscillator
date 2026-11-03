@@ -1,0 +1,362 @@
+Perhitungan Lengkap Wien-Bridge Oscillator untuk DTMF 4
+Dua osilator Wien-Bridge untuk membangkitkan sinyal DTMF angka 4, yaitu frekuensi 770 Hz dan 1209 Hz.
+Spesifikasi dasar perancangan:
+Parameter
+Osilator 1
+Osilator 2
+Frekuensi target
+770 Hz
+1209 Hz
+Jenis gelombang
+Sinusoidal
+Sinusoidal
+Topologi
+Wien-Bridge
+Wien-Bridge
+Op-amp
+TL074
+TL074
+Catu daya
+±12 V
+±12 V
+Kapasitor yang dipilih
+10 nF
+10 nF
+Metode stabilisasi amplitudo
+Dioda 1N4148
+Dioda 1N4148
+Pada dokumen ini digunakan jaringan RC simetris, yaitu:
+Rs=Rp=R
+Cs=Cp=C
+dengan:
+Rs,Cs = resistor dan kapasitor pada jalur seri,
+Rp,Cp = resistor dan kapasitor pada jalur paralel,
+Vo = tegangan keluaran osilator,
+V+ = tegangan masukan non-inverting op-amp.
+Penurunan Persamaan Frekuensi Wien-Bridge
+Impedansi jalur seri
+Untuk resistor dan kapasitor yang dihubungkan seri:
+Zs=R+1sC
+Dengan menyamakan penyebut:
+Zs=1+sRCsC
+Impedansi jalur paralel
+Untuk resistor dan kapasitor yang dihubungkan paralel:
+Zp=R∥1sC
+Menggunakan rumus impedansi paralel:
+Zp=R1sCR+1sC
+Sehingga:
+Zp=R1+sRC
+Faktor umpan balik
+Karena kedua impedansi membentuk pembagi tegangan, maka faktor umpan balik adalah:
+βs=V+sVos=ZpZs+Zp
+Substitusikan hasil sebelumnya:
+βs=R1+sRC1+sRCsC+R1+sRC
+Setelah penyederhanaan diperoleh:
+βs=sRCsRC2+3sRC+1
+Atau dapat ditulis sebagai:
+βs=13+sRC+1sRC
+Menentukan syarat fasa
+Untuk analisis sinyal sinusoidal, digunakan:
+s=jω
+Sehingga:
+βjω=13+jωRC-1ωRC
+Agar memenuhi syarat fasa osilasi Barkhausen, bagian imajiner penyebut harus nol:
+ωRC-1ωRC=0
+Maka:
+ωRC2=1
+ω0=1RC
+Karena:
+ω0=2πf0
+maka diperoleh persamaan frekuensi osilasi:
+f0=12πRC
+Menentukan penguatan minimum
+Pada frekuensi osilasi, berlaku ω0RC=1, sehingga:
+βjω0=13
+Menurut kondisi magnitudo Barkhausen:
+Aβ=1
+A13=1
+sehingga:
+A=3
+Karena digunakan penguat non-inverting:
+A=1+RfRg
+maka:
+3=1+RfRg
+Rf=2Rg
+Jadi, secara ideal penguatan efektif penguat harus mendekati 3 ketika osilasi sudah stabil.
+Perhitungan Osilator Pertama (770 Hz)
+Diketahui:
+f1=770 Hz
+C=10 nF=10×10-9 F
+Dari persamaan:
+f0=12πRC
+maka untuk mencari R:
+R=12πf0C
+Substitusikan:
+R1=12π77010×10-9
+R1=20 669.47 Ω≈20.67 kΩ
+Nilai tersebut adalah nilai resistor ideal yang digunakan pada kedua posisi resistor jaringan Wien.
+Pemilihan komponen sebenarnya
+Agar mudah dirakit dengan komponen standar, dipilih dua resistor seri:
+R=20 kΩ+680 Ω
+R=20.68 kΩ
+Komponen jaringan Wien-Bridge 770 Hz:
+Komponen
+Nilai
+Rs
+20 kΩ + 680 Ω (seri)
+Rp
+20 kΩ + 680 Ω (seri)
+Cs
+10 nF
+Cp
+10 nF
+Verifikasi frekuensi teoritis
+f1,hitung=12π2068010×10-9
+f1,hitung=769.608 Hz
+Persentase kesalahan terhadap target:
+% Error=fhitung-ftargetftarget×100%
+% Error1=769.608-770770×100%
+% Error1≈0.051%
+Perhitungan Osilator Kedua (1209 Hz)
+Diketahui:
+f2=1209 Hz
+C=10 nF
+Gunakan:
+R=12πf0C
+Substitusikan:
+R2=12π120910×10-9
+R2=13 164.18 Ω≈13.16 kΩ
+Pemilihan komponen sebenarnya
+Gunakan resistor seri:
+R=13 kΩ+150 Ω
+R=13.15 kΩ
+Komponen jaringan Wien-Bridge 1209 Hz:
+Komponen
+Nilai
+Rs
+13 kΩ + 150 Ω (seri)
+Rp
+13 kΩ + 150 Ω (seri)
+Cs
+10 nF
+Cp
+10 nF
+Verifikasi frekuensi teoritis
+f2,hitung=12π1315010×10-9
+f2,hitung=1210.304 Hz
+Persentase kesalahan:
+% Error2=1210.304-12091209×100%
+% Error2≈0.108%
+Perbandingan Hasil Kedua Osilator
+Parameter
+Osilator 1
+Osilator 2
+Target
+770 Hz
+1209 Hz
+R ideal
+20.669 kΩ
+13.164 kΩ
+R dipilih
+20.68 kΩ
+13.15 kΩ
+C dipilih
+10 nF
+10 nF
+Hasil nominal
+769.608 Hz
+1210.304 Hz
+Error absolut
+0.392 Hz
+1.304 Hz
+Error relatif
+0.051%
+0.108%
+Perhitungan Penguatan Kedua Osilator
+Penguatan kedua osilator menggunakan komponen yang sama, karena frekuensi osilasi ditentukan oleh jaringan RC yang berbeda.
+Menghitung penguatan ideal
+Dari syarat Barkhausen sebelumnya:
+A=3
+Untuk penguat non-inverting:
+A=1+RfRg
+Jika ditentukan:
+Rg=10 kΩ
+maka:
+Rf=210 kΩ
+Rf=20 kΩ
+Namun, agar osilasi dapat mulai, penguatan awal dibuat sedikit lebih besar dari 3.
+Memilih resistor untuk stabilisasi amplitudo
+Dipilih nilai:
+Komponen
+Nilai
+Rg
+10 kΩ
+Rf1
+15 kΩ
+Rf2
+7.5 kΩ
+D1 dan D2
+1N4148 antiparalel
+Penguatan awal ketika dioda OFF
+Pada kondisi awal, kedua dioda belum menghantarkan secara berarti.
+Resistansi total jalur umpan balik:
+Rf=Rf1+Rf2
+Rf=15+7.5=22.5 kΩ
+Sehingga:
+Aawal=1+22.510
+Aawal=3.25
+Dengan faktor umpan balik Wien:
+β=13
+maka penguatan loop awal adalah:
+L=Aawalβ
+L=3.2513
+Lawal≈1.083
+Karena Lawal>1, maka dalam model linear ideal gangguan kecil pada frekuensi yang sesuai akan mengalami penguatan sehingga osilasi dapat tumbuh.
+Penguatan ketika dioda mulai ON
+Ketika amplitudo meningkat, kedua dioda menghantarkan bergantian sesuai polaritas sinyal. Dioda yang menghantarkan mengurangi resistansi efektif yang dipasang paralel dengan Rf2.
+Sebagai pendekatan batas jika bagian Rf2 hampir seluruhnya ter-bypass:
+Rf≈Rf1=15 kΩ
+Sehingga:
+Abatas≈1+1510
+Abatas≈2.5
+Penguatan loop pada kondisi batas tersebut:
+L≈2.513
+L≈0.833<1
+Artinya, jika penguatan berkurang terlalu jauh, amplitudo akan menurun kembali. Dalam keadaan osilasi mantap, dioda tidak terus-menerus bekerja seperti hubungan pendek ideal. Konduksinya berubah sepanjang gelombang sehingga penguatan efektif untuk komponen fundamental menyesuaikan sampai loop tidak lagi mengalami pertumbuhan atau peredaman bersih.
+Perkiraan Titik Kerja Dioda
+Sebelum dioda menghantarkan, arus pada rangkaian umpan balik dapat didekati dengan:
+If=VoRg+Rf1+Rf2
+Total resistansi:
+Rtotal=10+15+7.5=32.5 kΩ
+Tegangan pada resistor 7.5 kΩ:
+VRf2=IfRf2
+VRf2=7.532.5Vo
+VRf2≈0.231Vo
+Jika digunakan pendekatan tegangan maju dioda silikon 1N4148 sebesar 0.65 V:
+0.65≈0.231Vo,puncak
+Vo,puncak≈2.82 V
+Jadi, pengendalian amplitudo mulai berpengaruh secara signifikan ketika keluaran mencapai sekitar 2.8 V puncak.
+Pemeriksaan Kemampuan Op-Amp TL074
+Untuk sinyal:
+vot=Vpsin2πft
+Turunannya adalah:
+dvodt=2πfVpcos2πft
+Kecepatan perubahan maksimum:
+SRmin=2πfVp
+Jika digunakan amplitudo pemeriksaan 5 V puncak:
+Parameter
+Osilator 1
+Osilator 2
+Frekuensi
+770 Hz
+1209 Hz
+Amplitudo pemeriksaan
+5 Vp
+5 Vp
+SRmin
+0.0242 V/μs
+0.0380 V/μs
+TL074 mempunyai slew rate tipikal sekitar 13 V/μs dan gain-bandwidth sekitar 3 MHz, sehingga secara spesifikasi dasar memadai untuk dua frekuensi audio ini.
+Tabel Daftar Semua Nilai Komponen Dua Osilator
+Komponen
+Osilator 1 (770 Hz)
+Osilator 2 (1209 Hz)
+R seri Wien (Rs)
+20 kΩ + 680 Ω
+13 kΩ + 150 Ω
+R paralel Wien (Rp)
+20 kΩ + 680 Ω
+13 kΩ + 150 Ω
+C seri Wien (Cs)
+10 nF
+10 nF
+C paralel Wien (Cp)
+10 nF
+10 nF
+Resistor penguatan (Rg)
+10 kΩ
+10 kΩ
+Resistor feedback (Rf1)
+15 kΩ
+15 kΩ
+Resistor feedback (Rf2)
+7.5 kΩ
+7.5 kΩ
+Dioda D1
+1N4148
+1N4148
+Dioda D2
+1N4148
+1N4148
+Op-amp
+TL074 kanal A
+TL074 kanal B
+Tegangan suplai
+±12 V
+±12 V
+Rangkaian Summing menggunakan Rin 22kΩ dan Rf = 10kΩ
+Hasil frekuensi setelah menggunakan komponen standar
+Parameter
+Osilator 1
+Osilator 2
+Frekuensi target
+770 Hz
+1209 Hz
+R ideal
+20.669 kΩ
+13.164 kΩ
+R setelah penyesuaian
+20.68 kΩ
+13.15 kΩ
+C
+10 nF
+10 nF
+Frekuensi teoritis
+769.608 Hz
+1210.304 Hz
+Error nominal
+0.051%
+0.108%
+Daftar belanja komponen dua osilator
+Nama komponen
+Spesifikasi
+Jumlah
+Resistor 20 kΩ
+Metal film 1/4 W, 1%
+2 buah
+Resistor 680 Ω
+Metal film 1/4 W, 1%
+2 buah
+Resistor 13 kΩ
+Metal film 1/4 W, 1%
+2 buah
+Resistor 150 Ω
+Metal film 1/4 W, 1%
+2 buah
+Resistor 10 kΩ
+Metal film 1/4 W, 1%
+3 buah
+Resistor 15 kΩ
+Metal film 1/4 W, 1%
+2 buah
+Resistor 7.5 kΩ
+Metal film 1/4 W, 1%
+2 buah
+Resistor 22 kΩ
+Metal film 1/4 W, 1%
+2 buah
+Kapasitor 10 nF (103)
+Film atau C0G/NP0, toleransi kecil
+4 buah
+Dioda 1N4148
+Switching diode
+4 buah
+IC TL074
+DIP-14
+1 buah
+Kapasitor 100 nF (104)
+Decoupling catu daya
+2 buah
+Kapasitor elektrolit 10 μF
+Minimal 25 V, decoupling suplai
+2 buah

@@ -1,0 +1,25 @@
+Wien oscillator 1209 Hz / f1209_97fe8dfc3a76
+* R1 is SERIES WIEN resistance; R2 is SHUNT WIEN resistance.
+* The TL074 .301 subcircuit uses (+, -, V+, V-, out), NOT DIP pin numbers.
+.include "../../../models/TL074_ngspice.lib"
+.include "../../../models/1N4148.lib"
+Vpositive vcc 0 DC 12
+Vnegative vee 0 DC -12
+Xop wien inv vcc vee out TL074
+R1_1 out series_rc 13000
+R2_1 wien 0 11000
+C1 series_rc wien 8.645e-09
+C2 wien 0 8.645e-09
+Rg inv 0 10000
+Rf_fixed out diode_junction 15000
+Rf_bypassed diode_junction inv 7500
+Xdpositive diode_junction inv 1N4148
+Xdnegative inv diode_junction 1N4148
+* No external output load; only oscillator feedback networks.
+* Finite startup seed, zero after 1.2e-05 s. Not a sine source.
+Iseed 0 wien PWL(0 0 1e-06 0 2e-06 1e-07 1.1e-05 1e-07 1.2e-05 0)
+.temp 27
+.options reltol=1e-5 abstol=1e-10 vntol=1e-7 method=trap
+.save v(out)
+.tran 5e-06 0.5 0 5e-06
+.end

@@ -1,0 +1,93 @@
+{
+  "models_match_recorded_hashes": true,
+  "oscillators": {
+    "770": {
+      "scenario_rows": 6075,
+      "unique_physical_circuits": 5575,
+      "rows_per_C_and_tolerance": [
+        225
+      ],
+      "nominal_capacitance_values_nF": [
+        6.8,
+        7.5,
+        8.2,
+        9.1,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        15.0
+      ],
+      "simulator_failures": 0,
+      "statuses": {
+        "settled_oscillation": 5626,
+        "no_sustained_oscillation": 434,
+        "not_settled_within_run": 15
+      }
+    },
+    "1209": {
+      "scenario_rows": 6075,
+      "unique_physical_circuits": 5575,
+      "rows_per_C_and_tolerance": [
+        225
+      ],
+      "nominal_capacitance_values_nF": [
+        6.8,
+        7.5,
+        8.2,
+        9.1,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        15.0
+      ],
+      "simulator_failures": 0,
+      "statuses": {
+        "settled_oscillation": 5496,
+        "no_sustained_oscillation": 565,
+        "not_settled_within_run": 14
+      }
+    }
+  },
+  "unique_physical_circuits": 11150,
+  "total_scenario_rows": 12150,
+  "numerical_checks": [
+    {
+      "target_hz": 770,
+      "R1_ohm": 20680.0,
+      "R2_ohm": 20680.0,
+      "original_maximum_timestep_s": 5e-06,
+      "refined_maximum_timestep_s": 2.5e-06,
+      "original_frequency_hz": 766.2089902806756,
+      "refined_frequency_hz": 766.2356620107888,
+      "original_vpp_v": 6.109304784557489,
+      "refined_vpp_v": 6.109293247838317,
+      "original_thd_percent": 3.8454947797423737,
+      "refined_thd_percent": 3.847742336087737,
+      "original_status": "settled_oscillation",
+      "refined_status": "settled_oscillation",
+      "simulation_status": "ok",
+      "frequency_change_percent": 0.0034808781991710553,
+      "C_nominal_f": 1e-08
+    },
+    {
+      "target_hz": 1209,
+      "R1_ohm": 13000.0,
+      "R2_ohm": 11000.0,
+      "original_maximum_timestep_s": 5e-06,
+      "refined_maximum_timestep_s": 2.5e-06,
+      "original_frequency_hz": 1207.1703199027884,
+      "refined_frequency_hz": 1207.2725966753435,
+      "original_vpp_v": 3.600446974477749,
+      "refined_vpp_v": 3.6004090158060302,
+      "original_thd_percent": 1.4957092604716107,
+      "refined_thd_percent": 1.4968537062417433,
+      "original_status": "settled_oscillation",
+      "refined_status": "settled_oscillation",
+      "simulation_status": "ok",
+      "frequency_change_percent": 0.008471721534703136,
+      "C_nominal_f": 1.1000000000000001e-08
+    }
+  ]
+}

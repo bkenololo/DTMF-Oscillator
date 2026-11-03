@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Wien DTMF summing results</title><style>body{font:16px system-ui;max-width:1100px;margin:40px auto;padding:0 24px;color:#183044}img{width:100%;height:auto}table{border-collapse:collapse;width:100%}td,th{padding:9px;border:1px solid #cad5dd;text-align:left}a{color:#096f8a}audio{width:100%}</style></head><body>
+<h1>Wien oscillators + TL074 summing amplifier</h1>
+<p><strong>769.61 Hz + 1209.21 Hz; 5.548 Vpp into 1 MΩ.</strong></p>
+<p>Summer: 22 kΩ at each input, 10 kΩ feedback. High oscillator: R1=13,082 Ω, R2=13,110 Ω. Nominal waveform timestep 1.25 µs; original 5 µs table is separately checked without changing components.</p>
+<p><a href="SUMMARY.md">Detailed results</a> · <a href="README.md">Assumptions and running instructions</a> · <a href="circuits/nominal/circuit.cir">SPICE netlist</a></p>
+<h2>DTMF decoder input: digit 4</h2><p><a href="audio/dtmf_4_steady_48k.wav">Download steady WAV (48 kHz)</a> · <a href="audio/dtmf_4_repeated_48k.wav">Repeated 444</a> · <a href="audio/dtmf_4_steady_8k.wav">8 kHz alternative</a></p>
+<audio controls src="audio/dtmf_4_steady_48k.wav"></audio>
+<p>Actual simulated output, common volume scaling and explicit audio antialiasing. Basic spectral checker returns 4; it is not a test of your specific decoder.</p>
+<h2>Nominal waveform and spectrum</h2><img src="figures/nominal_waveform_and_fft.png" alt="Nominal waveform and spectrum">
+<h2>Summing resistor tolerance</h2><img src="figures/summing_resistor_tolerance.png" alt="Summing resistor tolerance">
+<h2>Wien resistor tolerance</h2><img src="figures/oscillator_resistor_tolerance.png" alt="Wien resistor tolerance">
+<h2>Capacitor tolerance</h2><img src="figures/capacitor_tolerance.png" alt="Capacitor tolerance">
+<h2>Summing accuracy</h2><img src="figures/summing_linearity.png" alt="Summing accuracy">
+<h2>Wideband spectrum</h2><img src="figures/fft_wideband.png" alt="Wideband spectrum">
+<p><a href="results/tolerance_all.csv">All tolerance CSV</a> · <a href="waveforms/nominal_native.csv">Native voltage CSV</a> · <a href="audio/audio_metadata.json">Audio calibration</a></p></body></html>

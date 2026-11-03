@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Expanded Wien bridge sweep</title>
+<style>body{font:16px system-ui;max-width:1150px;margin:36px auto;padding:0 24px;color:#172536}table{border-collapse:collapse}td,th{border:1px solid #bbb;padding:9px;text-align:right}img{max-width:100%;height:auto}a{color:#135f94}</style></head><body>
+<h1>Expanded Wien bridge sweep</h1>
+<p>Nine standard nominal C values: 6.8, 7.5, 8.2, 9.1, 10, 11, 12, 13, 15 nF. Independent ±1%, ±5%, ±10% capacitor deviations at each nominal value.</p>
+<p><a href="results/index.html">Requested broad capacitor sweep</a> · <a href="refinement/results/index.html">Separate fine resistor sweep</a> · <a href="SUMMARY.md">Interpretation</a> · <a href="README.md">Instructions</a></p>
+<table><tr><th>Target Hz</th><th>Search</th><th>C nF</th><th>R1 Ω</th><th>R2 Ω</th><th>Simulated Hz</th><th>Error %</th><th>THD %</th></tr>
+<tr><td>770</td><td>previous_10nF</td><td>10</td><td>20680</td><td>20680</td><td>766.2090</td><td>0.4923</td><td>3.845</td></tr>
+<tr><td>770</td><td>broad_C</td><td>10</td><td>20680</td><td>20680</td><td>766.2090</td><td>0.4923</td><td>3.845</td></tr>
+<tr><td>770</td><td>fine_R</td><td>10</td><td>20620</td><td>20560</td><td>769.5837</td><td>0.0541</td><td>3.825</td></tr>
+<tr><td>1209</td><td>previous_10nF</td><td>10</td><td>13000</td><td>13150</td><td>1210.9206</td><td>0.1589</td><td>3.913</td></tr>
+<tr><td>1209</td><td>broad_C</td><td>11</td><td>13000</td><td>11000</td><td>1207.1703</td><td>0.1513</td><td>1.496</td></tr>
+<tr><td>1209</td><td>fine_R</td><td>10</td><td>13082</td><td>13110</td><td>1209.0978</td><td>0.0081</td><td>3.854</td></tr>
+</table><p>The finer resistor search improves nominal frequency accuracy. The broad sweep separately shows other nominal capacitors and their distortion/tolerance trade-offs. See both detailed reports before choosing hardware values.</p>
+<h2>770 Hz closest nominal case</h2>
+<p><a href="circuits/recommended_770Hz/circuit.cir">SPICE netlist</a></p>
+<p>C=10 nF; R1=20620 Ω; R2=20560 Ω; verified frequency 769.6176 Hz.</p>
+<img src="verification/results/figures/finalist_770Hz.png" alt="Finer-step verified waveform and FFT">
+<h2>1209 Hz closest nominal case</h2>
+<p><a href="circuits/recommended_1209Hz/circuit.cir">SPICE netlist</a></p>
+<p>C=10 nF; R1=13100 Ω; R2=13100 Ω; verified frequency 1208.8873 Hz.</p>
+<img src="verification/results/figures/finalist_1209Hz.png" alt="Finer-step verified waveform and FFT">
+</body></html>

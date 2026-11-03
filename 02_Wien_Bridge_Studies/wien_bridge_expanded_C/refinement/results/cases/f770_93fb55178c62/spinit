@@ -1,0 +1,4 @@
+* Generated startup: only POLY support required by TL074.301
+set filetype=binary
+set num_threads=1
+codemodel ../../../../tools/ngspice/lib/ngspice/spice2poly.cm

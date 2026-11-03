@@ -1,0 +1,201 @@
+{
+  "installed_utc": "2026-11-03T00:20:30.678744+00:00",
+  "base": "/Users/bkent/Documents/Academic/ITB/Semester Ganjil 26:27/Elektronika II/2026/Proyek/Oscillator",
+  "files": {
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/README.md": {
+      "previous_sha256": "d3fe8256df0bec87cf9c5f18276950e316c961d5d4908746e8b9abf6c4727371",
+      "sha256": "2119a43818bbf9b28b34b194bb06e0d995de4b8359677a5b26c2ded8f523317a"
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/refinement/circuits/selected_1209Hz/LTspice/README.md": {
+      "previous_sha256": "e92fb5b7ba1b7c172a25a7fca213c60abc5d0a8f6968918bd53ef910de6208b6",
+      "sha256": "74b506078991f9787402031ad0f7e6efd6d673845358400541f125ed3015052d"
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/refinement/circuits/selected_770Hz/LTspice/README.md": {
+      "previous_sha256": "08e7a804f63a6d50845469b47c1b802b3e35ea0e8aa914d9dadc50531bae8329",
+      "sha256": "4d7baec8a83ab61dd6272b2d4e7cdd2e6a39d74bd16ba75e0c2a71c07dfcb4a1"
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/resistor_tolerance_table_values/README.md": {
+      "previous_sha256": null,
+      "sha256": "fafa0d463ea2e125370258b4299dd91aaf93ac8d529bda50878ae182b34bb30b"
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/resistor_tolerance_table_values/run_resistor_tolerance.py": {
+      "previous_sha256": null,
+      "sha256": "93c24dca50326e2b8302997d8e31a74d4a41eb82da21e2d94aeb811a78802f23"
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/resistor_tolerance_table_values/selected_parameters.json": {
+      "previous_sha256": null,
+      "sha256": "c211df23f91d5654548a0a10d06b8c808598cd9e0e1bbf2248c8af1f4a1831db"
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/src/wien.py": {
+      "previous_sha256": "31d0989a8d955a09fec37470dbd1f1ee9d1f917476b5eefcc8ee93d6d0f255a1",
+      "sha256": "b23f13739db353cae8826da91de4fde536dd60ed67a97cfb3f5206cefe6ba04d"
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/README.md": {
+      "previous_sha256": "c747ba1d2eafaf087792890e8529ededbbb186c589687d1eea499196529e5e37",
+      "sha256": "1194085d6b5318c22b305d402b47de984cc2b3945744fe29691dba581c5ac75d"
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/src/wien.py": {
+      "previous_sha256": "b185e47145a14ad1a2f120d8fcc8d6dc80d6593792e8d379bad77ebd34f45794",
+      "sha256": "e86ed233b06ef8ac2ff0f3a5d81331d718c15ff4e8e9c7094ce544fc2321deb5"
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/README.md": {
+      "previous_sha256": "47394bbc3a89d18ac0ec8397f88daf8cd7986a2ffa0f3e7d55d856a13e78efd9",
+      "sha256": "9da8aef3bef9951e8281dd3dda57aee9824fe1b409ce9a209a665b9e3613a884"
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/README.md": {
+      "previous_sha256": "3143d7f36d9ab45e57941b0d47d11198da3ce884dbd6cdb6b9533fd3139900e0",
+      "sha256": "b5d3f9bccc724d1797c8d89348f38178f7845278d1f6bd6b125dbb341b29e4af"
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/reference/circuit.cir": {
+      "previous_sha256": null,
+      "sha256": "c2f3f08fa64598fdd0b17b25ee8457992d428cb1852dc7f10c7ae7b828fedddf"
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/scripts/build_project.py": {
+      "previous_sha256": null,
+      "sha256": "475a7f680d26ba5d79032d91e60a7a1bac60c22bbba874d8fef9fb30a5391650"
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/scripts/check_project.py": {
+      "previous_sha256": null,
+      "sha256": "491c952b29cb6724242e79a0f4f5f3b86c5d078d9214a7e136fb435e60527aaa"
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/scripts/reproduce.py": {
+      "previous_sha256": null,
+      "sha256": "c9c64319258155699c208b3bbd510eca1472cb7062c7a6a1d6250fcc3f366b86"
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/scripts/requirements.txt": {
+      "previous_sha256": null,
+      "sha256": "640dbfd84bf4fb5b5c4e9993b5d85cffa86dedc88fe842546f9f453d3a3eec42"
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/src/summing.py": {
+      "previous_sha256": "58bf027475ba0ad9581e745977d8f6091cf3d4259a8f4943aa2990648ed25657",
+      "sha256": "52b7fb763ec69c83c650e07e7fd4bd7b66bf7e3218f9f90d0b09c47581ef15de"
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/src/wien_reference.py": {
+      "previous_sha256": "31d0989a8d955a09fec37470dbd1f1ee9d1f917476b5eefcc8ee93d6d0f255a1",
+      "sha256": "b23f13739db353cae8826da91de4fde536dd60ed67a97cfb3f5206cefe6ba04d"
+    },
+    "05_Analisis_Hasil_Uji/04_Skrip/analyze.py": {
+      "previous_sha256": "0707ade9024d1e1118ea5fb9db6d828f97290ea386ee9938167e0557132d7a39",
+      "sha256": "f3d93c8b95e927122420cb4fa27c7de5abf7f36680fa898c50e0dbaae30c2764"
+    },
+    "05_Analisis_Hasil_Uji/04_Skrip/package.json": {
+      "previous_sha256": null,
+      "sha256": "a4a4ac63257c44bda8e0805efba68984bf19d4ec4e435e52d769626a0945bc25"
+    },
+    "05_Analisis_Hasil_Uji/04_Skrip/render.cjs": {
+      "previous_sha256": "f5b14daade9d64a41353b36b16589ca8091fa123fe7cd764f903bc3f40644415",
+      "sha256": "b770733751efed013637936712a3578050d3b937785e5ba14aaf70e2e890dd2d"
+    },
+    "README.md": {
+      "previous_sha256": "180e5a9eaf89b0e84061156eca9a71c3bb82613285d54202d4b055f4efa68b22",
+      "sha256": "0de48bf1370e4680f1960782f26948b7a8cdf2109339eaadcd2e65da6f77c5d6"
+    },
+    "reproduce.py": {
+      "previous_sha256": null,
+      "sha256": "11f781a2133d7c53595334098b585a858e389d794d87c962ac1e5804c9445d7f"
+    },
+    "reproduction_checks/test_logs/20261103T001513.903006Z/01_tests.log": {
+      "previous_sha256": null,
+      "sha256": "93dd29b3684d997559d3e8473693af07868e8af18a98707ee82212b24676947b"
+    },
+    "reproduction_checks/test_logs/20261103T001513.903006Z/02_tests.log": {
+      "previous_sha256": null,
+      "sha256": "351e214572ec68503e1d9c346e02e5d8d1c029d064b58c06d527795a912e566e"
+    },
+    "reproduction_checks/test_logs/20261103T001513.903006Z/03_tests.log": {
+      "previous_sha256": null,
+      "sha256": "39838248c6778686f469a12dcea7fe18f006697ca0f1c286d79868f4a46ac6a0"
+    },
+    "reproduction_checks/test_logs/20261103T001513.903006Z/04_ltspice.log": {
+      "previous_sha256": null,
+      "sha256": "13437d711c20e69db798f910c45916dca8831b6da88de39af49e536820273338"
+    },
+    "reproduction_checks/test_logs/20261103T001513.903006Z/run.json": {
+      "previous_sha256": null,
+      "sha256": "04f8cbf6a11c057c4dcace050a7b0c78b5962113137bf3b30715ab7ed0c07705"
+    },
+    "reproduction_checks/test_logs/20261103T001715.984474Z/01_summing-nominal.log": {
+      "previous_sha256": null,
+      "sha256": "a1ad4e7f280cc5bfd9fecd088768c0f6fde2282dbf312a963ddb57e8d3a5f7b4"
+    },
+    "reproduction_checks/test_logs/20261103T001715.984474Z/02_audio.log": {
+      "previous_sha256": null,
+      "sha256": "c743994098e8074710da848c5d6b34ca0855b836f0e96b9a475c078fcb135f0a"
+    },
+    "reproduction_checks/test_logs/20261103T001715.984474Z/03_decoder.log": {
+      "previous_sha256": null,
+      "sha256": "b6ca6f0565722eddde5a289617cc660971b2a267df234926573be4577d29c29e"
+    },
+    "reproduction_checks/test_logs/20261103T001715.984474Z/04_ltspice-sim.log": {
+      "previous_sha256": null,
+      "sha256": "0212f9f280ec0432355126994af770a299ba577c24b52745fe750d18d5380fdf"
+    },
+    "reproduction_checks/test_logs/20261103T001715.984474Z/run.json": {
+      "previous_sha256": null,
+      "sha256": "30f4a60bd3111678b3d0124e32b8a97d3709287dabb2e25c0390b55b5d8748c4"
+    },
+    "reproduction_checks/test_logs/20261103T001904.020734Z/01_tests.log": {
+      "previous_sha256": null,
+      "sha256": "59d44888e0df26e127a763bab0c2fe39c3ad48054f16d2989b8a753eea3ec333"
+    },
+    "reproduction_checks/test_logs/20261103T001904.020734Z/02_tests.log": {
+      "previous_sha256": null,
+      "sha256": "9c93698772657c209084ae3b3d68944c6d11448ecd562ff8a1fcd7bf1721aebf"
+    },
+    "reproduction_checks/test_logs/20261103T001904.020734Z/03_tests.log": {
+      "previous_sha256": null,
+      "sha256": "d15043e3d58ab7a6ace825797a5de5094456a225fabf5318023251139f700015"
+    },
+    "reproduction_checks/test_logs/20261103T001904.020734Z/run.json": {
+      "previous_sha256": null,
+      "sha256": "4b055b61fb94120b72f8d7c15d114c1cbf7a38cedeb5fb86d8f1c0c8cc279841"
+    },
+    "reproduction_checks/test_logs/20261103T001916.497309Z/01_standalone.log": {
+      "previous_sha256": null,
+      "sha256": "f35c438eaa2d671c87ab003c37b40ea0a530e4bd914190af620889bcef22c544"
+    },
+    "reproduction_checks/test_logs/20261103T001916.497309Z/02_lab.log": {
+      "previous_sha256": null,
+      "sha256": "fcc461a7be06a403e97e5d6b69117df72078b50adeb2fa13dc9e96cdc815da2a"
+    },
+    "reproduction_checks/test_logs/20261103T001916.497309Z/run.json": {
+      "previous_sha256": null,
+      "sha256": "12dbdd69b699209840b00785725aee2e8df187b643443c19d16c0cfad9f70655"
+    },
+    "reproduction_checks/validation.json": {
+      "previous_sha256": null,
+      "sha256": "241a2cbd0069b2c80912d2da85bf8fc5b7cc5ee4f95eed2b665331796fed2c53"
+    },
+    "requirements.txt": {
+      "previous_sha256": null,
+      "sha256": "072a9c292c81096f66f8c1d29e6a530ed2adfb3de5dfe724e15d3f751c2870f7"
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_lookup/manifest_sha256.json": {
+      "previous_sha256": "fbedebfa807a37e4a4251bee67da144cd131fbe281bc5edebe31c6cef5c23199",
+      "sha256": "e956ee4ef5c41a40bc5e7204dd95f45279624119c19ba0c2a7bed68ca4d46408",
+      "note": "Only reproduction source entries added/refreshed; result entries retained."
+    },
+    "02_Wien_Bridge_Studies/wien_bridge_expanded_C/manifest_sha256.json": {
+      "previous_sha256": "8ec32fbca06e9c23dcee2855e9d4c0a00c9ae35deb7bb84e7468039e0b8405e3",
+      "sha256": "5897a1b0da8950e38ddf2061038d2ca510240026be46db44f753e83aa2038652",
+      "note": "Only reproduction source entries added/refreshed; result entries retained."
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/manifest_sha256.json": {
+      "previous_sha256": "a16a6c7bc1613b3d75d798c563c7a06853e003d49f2004b9860db26ac1d5aab4",
+      "sha256": "d2106136b15b7794d3fb373c002aea0e860f4bba897699acf792171f06efb511",
+      "note": "Only reproduction source entries added/refreshed; result entries retained."
+    },
+    "03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/manifest_sha256.json": {
+      "previous_sha256": "b549955a7b62a9ce43ab8a2a8ff44ddee5d3124685fff64dfeccf91c22dfdcb5",
+      "sha256": "b172ff0d9497e98774f3e3621a70dd7738bdb66fd007ce5d882bfad8a84080d8",
+      "note": "Only reproduction source entries added/refreshed; result entries retained."
+    },
+    "05_Analisis_Hasil_Uji/manifest.json": {
+      "previous_sha256": "1d0b1264cfd5974e7ce881ea4213bb67413a6773466ed3d8dea426b37762cd3a",
+      "sha256": "247b76374424f8d87f0fbf4ae6d866b516198f5c2a3b229e8cd0cc0fea90782d",
+      "note": "Only reproduction source entries added/refreshed; result entries retained."
+    }
+  },
+  "validation": "reproduction_checks/validation.json",
+  "scope": "Scripts and README only, plus preserved electrical reference and test evidence. No original lab inputs or existing simulation result files changed."
+}

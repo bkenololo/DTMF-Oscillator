@@ -1,0 +1,49 @@
+Two refined Wien oscillators and TL074 summing amplifier
+* Subcircuit pin order is (+,-,V+,V-,output), not DIP pin numbering.
+.include "../../../models/TL074_ngspice.lib"
+.include "../../../models/1N4148.lib"
+Vpositive vcc 0 12
+Vnegative vee 0 -12
+Xlow low_wien low_inv vcc vee low_out TL074
+Rlow_R1_1 low_out low_R1_junction1 20000
+Rlow_R1_2 low_R1_junction1 low_series_rc 620
+Rlow_R2_1 low_wien low_R2_junction1 20000
+Rlow_R2_2 low_R2_junction1 0 560
+Clow_1 low_series_rc low_wien 1e-08
+Clow_2 low_wien 0 1e-08
+Rlow_g low_inv 0 10000
+Rlow_f_fixed low_out low_diode 15000
+Rlow_f_bypassed low_diode low_inv 7500
+Xlow_dpositive low_diode low_inv 1N4148
+Xlow_dnegative low_inv low_diode 1N4148
+Ilow_seed 0 low_wien PWL(0 0 1e-06 0 2e-06 1e-07 1.1e-05 1e-07 1.2e-05 0)
+Xhigh high_wien high_inv vcc vee high_out TL074
+Rhigh_R1_1 high_out high_R1_junction1 13000
+Rhigh_R1_2 high_R1_junction1 high_series_rc 82
+Rhigh_R2_1 high_wien high_R2_junction1 13000
+Rhigh_R2_2 high_R2_junction1 0 110
+Chigh_1 high_series_rc high_wien 1e-08
+Chigh_2 high_wien 0 1e-08
+Rhigh_g high_inv 0 10000
+Rhigh_f_fixed high_out high_diode 15000
+Rhigh_f_bypassed high_diode high_inv 7500
+Xhigh_dpositive high_diode high_inv 1N4148
+Xhigh_dnegative high_inv high_diode 1N4148
+Ihigh_seed 0 high_wien PWL(0 0 1e-06 0 2e-06 1e-07 1.1e-05 1e-07 1.2e-05 0)
+Rsum_in_low low_out sum_inv 23100
+Rsum_in_high high_out sum_inv 23100
+Rsum_feedback sum_out sum_inv 9500
+Xsum 0 sum_inv vcc vee sum_out TL074
+* Unused fourth channel: + input grounded, output connected to - input.
+Xunused 0 unused_out vcc vee unused_out TL074
+* Supply bypass capacitors from the partner BOM, across ideal rails.
+Cdec_pos vcc 0 100n
+Cdec_neg vee 0 100n
+Cbulk_pos vcc 0 10u
+Cbulk_neg vee 0 10u
+Rscope sum_out 0 1000000
+.temp 27
+.options reltol=1e-5 abstol=1e-10 vntol=1e-7 method=trap
+.save v(low_out) v(high_out) v(sum_out) v(sum_inv) v(unused_out)
+.tran 5e-06 0.5 0 5e-06
+.end

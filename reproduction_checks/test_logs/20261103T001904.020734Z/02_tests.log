@@ -1,0 +1,15 @@
+test_binary_parser (test_physics.PhysicsChecks.test_binary_parser) ... ok
+test_capacitor_values_are_preferred (test_physics.PhysicsChecks.test_capacitor_values_are_preferred) ... ok
+test_decay_not_reported_as_settled_oscillator (test_physics.PhysicsChecks.test_decay_not_reported_as_settled_oscillator) ... ok
+test_harmonic_measurement_known_signal (test_physics.PhysicsChecks.test_harmonic_measurement_known_signal) ... ok
+test_independent_grid_and_deduplication (test_physics.PhysicsChecks.test_independent_grid_and_deduplication) ... ok
+test_matched_frequency (test_physics.PhysicsChecks.test_matched_frequency) ... ok
+test_nominal_ranking_does_not_select_lucky_tolerance (test_physics.PhysicsChecks.test_nominal_ranking_does_not_select_lucky_tolerance) ... ok
+test_tolerance_groups_do_not_merge_nominal_capacitors (test_physics.PhysicsChecks.test_tolerance_groups_do_not_merge_nominal_capacitors) ... ok
+test_tolerance_scaling (test_physics.PhysicsChecks.test_tolerance_scaling) ... ok
+test_unequal_network_against_complex_impedances (test_physics.PhysicsChecks.test_unequal_network_against_complex_impedances) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.319s
+
+OK

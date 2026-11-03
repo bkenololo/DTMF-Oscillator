@@ -1,0 +1,136 @@
+{
+  "dtmf_4_startup_48k.wav": {
+    "decoded": "4",
+    "segments": [
+      {
+        "digit": "4",
+        "start_s": 0.0,
+        "end_s": 0.5
+      }
+    ],
+    "settings": {
+      "frame_ms": 40,
+      "hop_ms": 10,
+      "group_dominance_db": 6,
+      "minimum_group_amplitude_fraction_of_file_peak": 0.15,
+      "minimum_frame_rms_fraction_of_file_peak": 0.1,
+      "minimum_frame_start_persistence_ms": 40
+    },
+    "limitation": "Basic spectral sanity check, not a certified or device-specific DTMF decoder."
+  },
+  "dtmf_4_steady_48k.wav": {
+    "decoded": "4",
+    "segments": [
+      {
+        "digit": "4",
+        "start_s": 0.08,
+        "end_s": 0.39
+      }
+    ],
+    "settings": {
+      "frame_ms": 40,
+      "hop_ms": 10,
+      "group_dominance_db": 6,
+      "minimum_group_amplitude_fraction_of_file_peak": 0.15,
+      "minimum_frame_rms_fraction_of_file_peak": 0.1,
+      "minimum_frame_start_persistence_ms": 40
+    },
+    "limitation": "Basic spectral sanity check, not a certified or device-specific DTMF decoder."
+  },
+  "dtmf_4_repeated_48k.wav": {
+    "decoded": "444",
+    "segments": [
+      {
+        "digit": "4",
+        "start_s": 0.08,
+        "end_s": 0.39
+      },
+      {
+        "digit": "4",
+        "start_s": 0.53,
+        "end_s": 0.84
+      },
+      {
+        "digit": "4",
+        "start_s": 0.98,
+        "end_s": 1.29
+      }
+    ],
+    "settings": {
+      "frame_ms": 40,
+      "hop_ms": 10,
+      "group_dominance_db": 6,
+      "minimum_group_amplitude_fraction_of_file_peak": 0.15,
+      "minimum_frame_rms_fraction_of_file_peak": 0.1,
+      "minimum_frame_start_persistence_ms": 40
+    },
+    "limitation": "Basic spectral sanity check, not a certified or device-specific DTMF decoder."
+  },
+  "dtmf_4_startup_8k.wav": {
+    "decoded": "4",
+    "segments": [
+      {
+        "digit": "4",
+        "start_s": 0.0,
+        "end_s": 0.5
+      }
+    ],
+    "settings": {
+      "frame_ms": 40,
+      "hop_ms": 10,
+      "group_dominance_db": 6,
+      "minimum_group_amplitude_fraction_of_file_peak": 0.15,
+      "minimum_frame_rms_fraction_of_file_peak": 0.1,
+      "minimum_frame_start_persistence_ms": 40
+    },
+    "limitation": "Basic spectral sanity check, not a certified or device-specific DTMF decoder."
+  },
+  "dtmf_4_steady_8k.wav": {
+    "decoded": "4",
+    "segments": [
+      {
+        "digit": "4",
+        "start_s": 0.08,
+        "end_s": 0.39
+      }
+    ],
+    "settings": {
+      "frame_ms": 40,
+      "hop_ms": 10,
+      "group_dominance_db": 6,
+      "minimum_group_amplitude_fraction_of_file_peak": 0.15,
+      "minimum_frame_rms_fraction_of_file_peak": 0.1,
+      "minimum_frame_start_persistence_ms": 40
+    },
+    "limitation": "Basic spectral sanity check, not a certified or device-specific DTMF decoder."
+  },
+  "dtmf_4_repeated_8k.wav": {
+    "decoded": "444",
+    "segments": [
+      {
+        "digit": "4",
+        "start_s": 0.08,
+        "end_s": 0.39
+      },
+      {
+        "digit": "4",
+        "start_s": 0.53,
+        "end_s": 0.84
+      },
+      {
+        "digit": "4",
+        "start_s": 0.98,
+        "end_s": 1.29
+      }
+    ],
+    "settings": {
+      "frame_ms": 40,
+      "hop_ms": 10,
+      "group_dominance_db": 6,
+      "minimum_group_amplitude_fraction_of_file_peak": 0.15,
+      "minimum_frame_rms_fraction_of_file_peak": 0.1,
+      "minimum_frame_start_persistence_ms": 40
+    },
+    "limitation": "Basic spectral sanity check, not a certified or device-specific DTMF decoder."
+  }
+}

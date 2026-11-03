@@ -1,0 +1,262 @@
+{
+  "csv": [
+    {
+      "file": "NewFile0.csv",
+      "role": "summer",
+      "tone": "low",
+      "samples": 16384,
+      "duration_s": 0.065530103,
+      "sample_rate_hz": 250007.23713191782,
+      "frequency_fit_hz": 763.6343539328127,
+      "frequency_error_percent": -0.8267072814528986,
+      "fundamental_peak_v": 1.313528733829196,
+      "fundamental_rms_v": 0.9288050749740041,
+      "fundamental_dbvrms": -0.641508405717292,
+      "thd_2_to_10_fit_percent": 3.5899052700463083,
+      "trace_vpp_v": 4.64,
+      "trace_dc_v": 0.0011840827270507871,
+      "fit_residual_rms_v": 0.033911839736376924
+    },
+    {
+      "file": "NewFile0.csv",
+      "role": "summer",
+      "tone": "high",
+      "samples": 16384,
+      "duration_s": 0.065530103,
+      "sample_rate_hz": 250007.23713191782,
+      "frequency_fit_hz": 1172.123741560227,
+      "frequency_error_percent": -3.05014544580422,
+      "fundamental_peak_v": 1.0386204551004214,
+      "fundamental_rms_v": 0.7344155668805661,
+      "fundamental_dbvrms": -2.6811625256057816,
+      "thd_2_to_10_fit_percent": 3.1903682764321566,
+      "trace_vpp_v": 4.64,
+      "trace_dc_v": 0.0011840827270507871,
+      "fit_residual_rms_v": 0.033911839736376924
+    },
+    {
+      "file": "NewFile1.csv",
+      "role": "osilator_rendah",
+      "tone": "low",
+      "samples": 16384,
+      "duration_s": 0.032765057,
+      "sample_rate_hz": 500014.390330528,
+      "frequency_fit_hz": 763.6156126218655,
+      "frequency_error_percent": -0.8291412179395552,
+      "fundamental_peak_v": 2.807791409510066,
+      "fundamental_rms_v": 1.9854083458219018,
+      "fundamental_dbvrms": 5.956996862774647,
+      "thd_2_to_10_fit_percent": 4.074965246766194,
+      "trace_vpp_v": 5.8,
+      "trace_dc_v": 0.4669432780151368,
+      "fit_residual_rms_v": 0.08179460790136639
+    },
+    {
+      "file": "NewFile2.csv",
+      "role": "osilator_tinggi",
+      "tone": "high",
+      "samples": 16384,
+      "duration_s": 0.065530103,
+      "sample_rate_hz": 250007.23713191782,
+      "frequency_fit_hz": 1172.06107733857,
+      "frequency_error_percent": -3.0553285906890104,
+      "fundamental_peak_v": 2.285815234118558,
+      "fundamental_rms_v": 1.6163154525847478,
+      "fundamental_dbvrms": 4.170522499403362,
+      "thd_2_to_10_fit_percent": 3.0223884861423738,
+      "trace_vpp_v": 4.5600000000000005,
+      "trace_dc_v": -0.02269531207885743,
+      "fit_residual_rms_v": 0.04005932627812999
+    }
+  ],
+  "csv_gains": [
+    {
+      "tone": "low",
+      "gain_magnitude": 0.46781563950236427,
+      "gain_db": -6.598505268491937,
+      "source": "NewFile1.csv",
+      "output": "NewFile0.csv",
+      "limitation": "Separate captures; meaningful if circuit and acquisition conditions unchanged."
+    },
+    {
+      "tone": "high",
+      "gain_magnitude": 0.4543763816067697,
+      "gain_db": -6.851685025009145,
+      "source": "NewFile2.csv",
+      "output": "NewFile0.csv",
+      "limitation": "Separate captures; meaningful if circuit and acquisition conditions unchanged."
+    }
+  ],
+  "wav": {
+    "source": "1-NewFile0_DTMF_48k.wav",
+    "sample_rate_hz": 48000,
+    "samples": 22346,
+    "file_duration_s": 0.4655416666666667,
+    "active_span_s": 0.06554166666666666,
+    "active_start_s": 0.2,
+    "pcm_peak": 0.8000122074037904,
+    "estimated_frequencies_hz": [
+      763.6276588343317,
+      1172.1255277840253
+    ],
+    "twist_db": -2.041104076434046,
+    "voltage_scale_note": "PCM is normalized; WAV has no physical volt calibration without CSV conversion factor.",
+    "best_joint_frame": {
+      "start_s": 0.24,
+      "energies": {
+        "697": 0.002479877244426448,
+        "770": 0.12713356211487029,
+        "852": 0.0019943056103706464,
+        "941": 0.0007892467864212615,
+        "1209": 0.019675429676727866,
+        "1336": 0.00012553251745885637,
+        "1477": 2.7378614724708746e-05,
+        "1633": 9.802614438545552e-06
+      }
+    }
+  },
+  "workbook_calculations": [
+    {
+      "metric": "Error f rendah workbook",
+      "value": -0.10389610389609505,
+      "unit": "%",
+      "source": "Pengukuran lab!D36"
+    },
+    {
+      "metric": "Error f tinggi workbook",
+      "value": -1.5715467328370591,
+      "unit": "%",
+      "source": "Pengukuran lab!D45"
+    },
+    {
+      "metric": "Gain rendah FFT workbook",
+      "value": 0.5754399373371569,
+      "unit": "V/V",
+      "source": "Pengukuran lab!D66,D68"
+    },
+    {
+      "metric": "Gain tinggi FFT workbook",
+      "value": 0.5248074602497727,
+      "unit": "V/V",
+      "source": "Pengukuran lab!D67,D69"
+    },
+    {
+      "metric": "Twist FFT workbook",
+      "value": -3.2,
+      "unit": "dB",
+      "source": "Pengukuran lab!D68:D69"
+    },
+    {
+      "metric": "Gain dari R terukur rendah",
+      "value": 0.47417153996101363,
+      "unit": "V/V",
+      "source": "Komponen dan koneksi!D27/D25"
+    },
+    {
+      "metric": "Gain dari R terukur tinggi",
+      "value": 0.4746341463414634,
+      "unit": "V/V",
+      "source": "Komponen dan koneksi!D27/D26"
+    }
+  ],
+  "public_decoder_sweep": [
+    {
+      "threshold": 0.1,
+      "scale": 1,
+      "decoded": "",
+      "frames": []
+    },
+    {
+      "threshold": 0.05,
+      "scale": 1,
+      "decoded": "",
+      "frames": []
+    },
+    {
+      "threshold": 0.02,
+      "scale": 1,
+      "decoded": "",
+      "frames": []
+    },
+    {
+      "threshold": 0.01,
+      "scale": 1,
+      "decoded": "4",
+      "frames": [
+        {
+          "start_s": 0.24,
+          "label": "4"
+        }
+      ]
+    },
+    {
+      "threshold": 0.009,
+      "scale": 1,
+      "decoded": "4",
+      "frames": [
+        {
+          "start_s": 0.2,
+          "label": "4"
+        },
+        {
+          "start_s": 0.24,
+          "label": "4"
+        }
+      ]
+    },
+    {
+      "threshold": 0.005,
+      "scale": 1,
+      "decoded": "4",
+      "frames": [
+        {
+          "start_s": 0.2,
+          "label": "4"
+        },
+        {
+          "start_s": 0.24,
+          "label": "4"
+        }
+      ]
+    },
+    {
+      "threshold": 0.001,
+      "scale": 1,
+      "decoded": "4",
+      "frames": [
+        {
+          "start_s": 0.2,
+          "label": "4"
+        },
+        {
+          "start_s": 0.24,
+          "label": "4"
+        }
+      ]
+    },
+    {
+      "threshold": 0.0001,
+      "scale": 1,
+      "decoded": "4",
+      "frames": [
+        {
+          "start_s": 0.2,
+          "label": "4"
+        },
+        {
+          "start_s": 0.24,
+          "label": "4"
+        }
+      ]
+    }
+  ],
+  "user_report": {
+    "digit": "4",
+    "threshold_condition": "<0.01",
+    "at_threshold_0_1": "not detected",
+    "attempt_count": null,
+    "evidence": "User report; no decoder screenshot supplied"
+  },
+  "analysis_date": "2026-10-29",
+  "method": "Variable-frequency joint least-squares sine/cosine fit; CSV timestamps used, harmonic fit orders 1–10; estimates depend on CSV time calibration. Windowed FFT only for visualization, zero padding does not improve true resolution."
+}

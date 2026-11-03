@@ -1,0 +1,17 @@
+Building schematics: /Users/bkent/.codex/.chatgpt-projects/g-p-6abf46ea21888191bc39a010593d8a4a/outputs/reproducibility_update/test_project/03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/reproduced
+/Users/bkent/.codex/.chatgpt-projects/g-p-6abf46ea21888191bc39a010593d8a4a/outputs/reproducibility_update/test_project/03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/reproduced
+{
+  "electrically_isomorphic_to_original_refined_circuit": true,
+  "reference_components": 38,
+  "generated_components": 38,
+  "interfaces_match": true,
+  "unconnected_pins": 0,
+  "shorted_named_nets": 0,
+  "preview_note": "Rendered from the ASC/ASY source geometry; not an LTspice screenshot."
+}
+LTspice: DTMF4
+LTspice: Test_LowOscillator
+LTspice: Test_HighOscillator
+LTspice: Test_SummingAmplifier
+Done. Open /Users/bkent/.codex/.chatgpt-projects/g-p-6abf46ea21888191bc39a010593d8a4a/outputs/reproducibility_update/test_project/03_Summing_Amplifier/wien_dtmf_summing_corrected/circuits/LTspice_DTMF/reproduced/DTMF4.asc
+Previews are rendered from ASC/ASY geometry. Simulation uses extracted CIR files; GUI hierarchy traversal is not verified.

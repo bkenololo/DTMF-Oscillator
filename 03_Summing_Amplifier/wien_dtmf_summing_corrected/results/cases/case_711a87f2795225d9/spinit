@@ -1,0 +1,4 @@
+* Explicit local POLY support
+set filetype=binary
+set num_threads=1
+codemodel ../../../tools/ngspice/lib/ngspice/spice2poly.cm

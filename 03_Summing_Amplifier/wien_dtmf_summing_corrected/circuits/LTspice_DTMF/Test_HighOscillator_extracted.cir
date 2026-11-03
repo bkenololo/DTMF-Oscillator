@@ -1,0 +1,26 @@
+* Extracted from Test_HighOscillator.asc and matching hierarchy
+XU_TEST.U1B U_TEST.WIEN U_TEST.N1 VCC VEE OSC_OUT TL074
+RU_TEST.R13 U_TEST.N2 OSC_OUT 15k
+RU_TEST.R14 U_TEST.N1 U_TEST.N2 7.5k
+XU_TEST.D3 U_TEST.N1 U_TEST.N2 1N4148
+XU_TEST.D4 U_TEST.N2 U_TEST.N1 1N4148
+RU_TEST.R12 U_TEST.N1 0 10k
+RU_TEST.R8 U_TEST.N3 OSC_OUT 13k
+RU_TEST.R9 U_TEST.N4 U_TEST.N3 82
+CU_TEST.C3 U_TEST.WIEN U_TEST.N4 10n
+RU_TEST.R10 U_TEST.WIEN U_TEST.N5 13k
+RU_TEST.R11 U_TEST.N5 0 110
+CU_TEST.C4 U_TEST.WIEN 0 10n
+IU_TEST.seed 0 U_TEST.WIEN PWL(0 0 1u 0 2u 100n 11u 100n 12u 0)
+RRload OSC_OUT 0 1Meg
+VVpositive VCC 0 12
+VVnegative VEE 0 -12
+.include "models.inc"
+.temp 27
+.options reltol=1e-5 abstol=1e-10 vntol=1e-7 method=trap plotwinsize=0
+.tran 1.25u 0.5 0 1.25u
+.save V(OSC_OUT)
+.meas tran T_osc TRIG V(OSC_OUT) VAL=0 RISE=1 TD=0.4 TARG V(OSC_OUT) VAL=0 RISE=2 TD=0.4
+.meas tran f_osc PARAM 1/T_osc
+.meas tran vpp_osc PP V(OSC_OUT) FROM 0.4 TO 0.5
+.end

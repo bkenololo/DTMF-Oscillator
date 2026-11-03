@@ -1,0 +1,118 @@
+{
+  "scope": "Two independent oscillators; no summing amplifier yet",
+  "incomplete": false,
+  "scenario_rows": 1350,
+  "unique_physical_circuits": 1250,
+  "ngspice_version": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n******",
+  "primary_cap_tolerance_percent": 10.0,
+  "oscillators": {
+    "770": {
+      "scenario_rows": 675,
+      "unique_physical_circuits": 625,
+      "status_counts": {
+        "settled_oscillation": 625,
+        "not_settled_within_run": 2,
+        "no_sustained_oscillation": 48
+      },
+      "simulator_failures": 0,
+      "best_nominal_any_pair": {
+        "case_id": "f770_36a2dbd17068",
+        "R1_ohm": 20680.0,
+        "R2_ohm": 20680.0,
+        "R1_parts_ohm": "20000 + 680",
+        "R2_parts_ohm": "20000 + 680",
+        "simulated_frequency_hz": 766.2089902806756,
+        "simulated_abs_error_percent": 0.4923389245875835,
+        "steady_state_vpp_v": 6.109304784557489,
+        "thd_2_to_10_percent": 3.8454947797423737,
+        "settling_time_s": 0.02,
+        "resistor_count": 4
+      },
+      "best_balanced_nominal": {
+        "case_id": "f770_36a2dbd17068",
+        "R1_ohm": 20680.0,
+        "R2_ohm": 20680.0,
+        "R1_parts_ohm": "20000 + 680",
+        "R2_parts_ohm": "20000 + 680",
+        "simulated_frequency_hz": 766.2089902806756,
+        "simulated_abs_error_percent": 0.4923389245875835,
+        "steady_state_vpp_v": 6.109304784557489,
+        "thd_2_to_10_percent": 3.8454947797423737,
+        "settling_time_s": 0.02,
+        "resistor_count": 4
+      }
+    },
+    "1209": {
+      "scenario_rows": 675,
+      "unique_physical_circuits": 625,
+      "status_counts": {
+        "settled_oscillation": 611,
+        "no_sustained_oscillation": 63,
+        "not_settled_within_run": 1
+      },
+      "simulator_failures": 0,
+      "best_nominal_any_pair": {
+        "case_id": "f1209_8971f008d1ff",
+        "R1_ohm": 13000.0,
+        "R2_ohm": 13150.0,
+        "R1_parts_ohm": "13000",
+        "R2_parts_ohm": "13000 + 150",
+        "simulated_frequency_hz": 1210.9205985424105,
+        "simulated_abs_error_percent": 0.1588584402324662,
+        "steady_state_vpp_v": 6.297227504007484,
+        "thd_2_to_10_percent": 3.9126542835460905,
+        "settling_time_s": 0.02,
+        "resistor_count": 3
+      },
+      "best_balanced_nominal": {
+        "case_id": "f1209_fc110c6252f2",
+        "R1_ohm": 13150.0,
+        "R2_ohm": 13150.0,
+        "R1_parts_ohm": "13000 + 150",
+        "R2_parts_ohm": "13000 + 150",
+        "simulated_frequency_hz": 1204.1731436796708,
+        "simulated_abs_error_percent": 0.3992436989519579,
+        "steady_state_vpp_v": 6.1094870292365195,
+        "thd_2_to_10_percent": 3.8395564799507484,
+        "settling_time_s": 0.02,
+        "resistor_count": 4
+      }
+    }
+  },
+  "timestep_checks": [
+    {
+      "target_hz": 770,
+      "R1_ohm": 20680.0,
+      "R2_ohm": 20680.0,
+      "original_maximum_timestep_s": 5e-06,
+      "refined_maximum_timestep_s": 2.5e-06,
+      "original_frequency_hz": 766.2089902806756,
+      "refined_frequency_hz": 766.2356620107888,
+      "original_vpp_v": 6.109304784557489,
+      "refined_vpp_v": 6.109293247838317,
+      "original_thd_percent": 3.8454947797423737,
+      "refined_thd_percent": 3.847742336087737,
+      "original_status": "settled_oscillation",
+      "refined_status": "settled_oscillation",
+      "simulation_status": "ok",
+      "frequency_change_percent": 0.0034808781991710553
+    },
+    {
+      "target_hz": 1209,
+      "R1_ohm": 13000.0,
+      "R2_ohm": 13150.0,
+      "original_maximum_timestep_s": 5e-06,
+      "refined_maximum_timestep_s": 2.5e-06,
+      "original_frequency_hz": 1210.9205985424105,
+      "refined_frequency_hz": 1211.0212066801303,
+      "original_vpp_v": 6.297227504007484,
+      "refined_vpp_v": 6.297216207614222,
+      "original_thd_percent": 3.9126542835460905,
+      "refined_thd_percent": 3.9169956704741757,
+      "original_status": "settled_oscillation",
+      "refined_status": "settled_oscillation",
+      "simulation_status": "ok",
+      "frequency_change_percent": 0.008307710646583246
+    }
+  ]
+}

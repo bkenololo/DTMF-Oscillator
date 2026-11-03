@@ -1,0 +1,75 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Expanded Wien capacitor sweep</title>
+<style>body{font:16px system-ui;max-width:1150px;margin:36px auto;padding:0 24px;color:#172536}img{max-width:100%;height:auto}table{border-collapse:collapse}th,td{border:1px solid #bbb;padding:8px;text-align:right}pre{white-space:pre-wrap}a{color:#135f94}</style></head><body>
+<h1>Expanded nominal capacitor sweep</h1>
+<p>12,150 scenario rows; 11,150 unique physical circuits. The original circuit and resistor grids are retained.</p>
+<p><a href='RESULTS.md'>Full interpretation</a> · <a href='tolerance_comparison.csv'>Tolerance comparison CSV</a></p>
+<p>Selections use nominal capacitor values. ±1%, ±5%, and ±10% tolerance points are separate tests.</p>
+<h2>770 Hz oscillator</h2>
+<p><a href='simulation_lookup_770Hz.csv'>All simulation rows</a> · <a href='nominal_candidates_770Hz.csv'>Nominal ranking</a> · <a href='best_per_nominal_C_770Hz.csv'>Best pair at each nominal C</a></p>
+<table><tr><th>C nF</th><th>R1 Ω</th><th>R2 Ω</th><th>Simulated Hz</th><th>Error %</th><th>THD %</th></tr>
+<tr><td>6.8</td><td>24000</td><td>24000</td><td>970.6154</td><td>26.0539</td><td>3.843</td></tr>
+<tr><td>7.5</td><td>24000</td><td>24000</td><td>880.1423</td><td>14.3042</td><td>3.844</td></tr>
+<tr><td>8.2</td><td>24000</td><td>24000</td><td>805.0971</td><td>4.5581</td><td>3.846</td></tr>
+<tr><td>9.1</td><td>20680</td><td>24000</td><td>780.8575</td><td>1.4101</td><td>4.230</td></tr>
+<tr><td>10</td><td>20680</td><td>20680</td><td>766.2090</td><td>0.4923</td><td>3.845</td></tr>
+<tr><td>11</td><td>20000</td><td>18000</td><td>760.5097</td><td>1.2325</td><td>2.698</td></tr>
+<tr><td>12</td><td>18000</td><td>18000</td><td>733.6086</td><td>4.7262</td><td>3.846</td></tr>
+<tr><td>13</td><td>18000</td><td>18000</td><td>677.2325</td><td>12.0477</td><td>3.847</td></tr>
+<tr><td>15</td><td>18000</td><td>18000</td><td>587.0108</td><td>23.7648</td><td>3.848</td></tr>
+</table><p>Closest nominal selection:</p><pre>{
+  &quot;case_id&quot;: &quot;f770_6b69db58e492&quot;,
+  &quot;target_hz&quot;: 770,
+  &quot;C_nominal_f&quot;: 1e-08,
+  &quot;C_nominal_nF&quot;: 10.0,
+  &quot;C_nominal_value_series&quot;: &quot;E12/E24&quot;,
+  &quot;R1_ohm&quot;: 20680.0,
+  &quot;R2_ohm&quot;: 20680.0,
+  &quot;R1_parts_ohm&quot;: &quot;20000 + 680&quot;,
+  &quot;R2_parts_ohm&quot;: &quot;20000 + 680&quot;,
+  &quot;resistor_count&quot;: 4,
+  &quot;theory_zero_phase_hz&quot;: 769.6080420304418,
+  &quot;simulated_frequency_hz&quot;: 766.2089902806756,
+  &quot;simulated_abs_error_percent&quot;: 0.4923389245875835,
+  &quot;steady_state_vpp_v&quot;: 6.109304784557489,
+  &quot;thd_2_to_10_percent&quot;: 3.8454947797423737,
+  &quot;settling_time_s&quot;: 0.02,
+  &quot;oscillation_status&quot;: &quot;settled_oscillation&quot;
+}</pre>
+<img src='figures/nominal_capacitor_comparison_770Hz.png' alt='Nominal capacitor alternatives'>
+<img src='figures/oscillator_770Hz.png' alt='Selected waveform and FFT'>
+<img src='figures/capacitor_tolerance_770Hz.png' alt='Tolerance around selected capacitor'>
+<h2>1209 Hz oscillator</h2>
+<p><a href='simulation_lookup_1209Hz.csv'>All simulation rows</a> · <a href='nominal_candidates_1209Hz.csv'>Nominal ranking</a> · <a href='best_per_nominal_C_1209Hz.csv'>Best pair at each nominal C</a></p>
+<table><tr><th>C nF</th><th>R1 Ω</th><th>R2 Ω</th><th>Simulated Hz</th><th>Error %</th><th>THD %</th></tr>
+<tr><td>6.8</td><td>15000</td><td>15000</td><td>1551.6242</td><td>28.3395</td><td>3.835</td></tr>
+<tr><td>7.5</td><td>15000</td><td>15000</td><td>1407.1132</td><td>16.3865</td><td>3.837</td></tr>
+<tr><td>8.2</td><td>15000</td><td>15000</td><td>1287.2283</td><td>6.4705</td><td>3.838</td></tr>
+<tr><td>9.1</td><td>13150</td><td>15000</td><td>1237.8198</td><td>2.3838</td><td>4.232</td></tr>
+<tr><td>10</td><td>13000</td><td>13150</td><td>1210.9206</td><td>0.1589</td><td>3.913</td></tr>
+<tr><td>11</td><td>13000</td><td>11000</td><td>1207.1703</td><td>0.1513</td><td>1.496</td></tr>
+<tr><td>12</td><td>11000</td><td>11000</td><td>1199.6191</td><td>0.7759</td><td>3.840</td></tr>
+<tr><td>13</td><td>11000</td><td>11000</td><td>1107.4936</td><td>8.3959</td><td>3.841</td></tr>
+<tr><td>15</td><td>11000</td><td>11000</td><td>960.0398</td><td>20.5922</td><td>3.843</td></tr>
+</table><p>Closest nominal selection:</p><pre>{
+  &quot;case_id&quot;: &quot;f1209_ab752848af9c&quot;,
+  &quot;target_hz&quot;: 1209,
+  &quot;C_nominal_f&quot;: 1.1000000000000001e-08,
+  &quot;C_nominal_nF&quot;: 11.0,
+  &quot;C_nominal_value_series&quot;: &quot;E24&quot;,
+  &quot;R1_ohm&quot;: 13000.0,
+  &quot;R2_ohm&quot;: 11000.0,
+  &quot;R1_parts_ohm&quot;: &quot;13000&quot;,
+  &quot;R2_parts_ohm&quot;: &quot;11000&quot;,
+  &quot;resistor_count&quot;: 2,
+  &quot;theory_zero_phase_hz&quot;: 1209.927722852097,
+  &quot;simulated_frequency_hz&quot;: 1207.1703199027884,
+  &quot;simulated_abs_error_percent&quot;: 0.15133830415315316,
+  &quot;steady_state_vpp_v&quot;: 3.600446974477749,
+  &quot;thd_2_to_10_percent&quot;: 1.4957092604716107,
+  &quot;settling_time_s&quot;: 0.04,
+  &quot;oscillation_status&quot;: &quot;settled_oscillation&quot;
+}</pre>
+<img src='figures/nominal_capacitor_comparison_1209Hz.png' alt='Nominal capacitor alternatives'>
+<img src='figures/oscillator_1209Hz.png' alt='Selected waveform and FFT'>
+<img src='figures/capacitor_tolerance_1209Hz.png' alt='Tolerance around selected capacitor'>
+</body></html>

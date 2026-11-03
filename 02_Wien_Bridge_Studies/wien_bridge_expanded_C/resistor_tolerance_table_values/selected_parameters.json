@@ -1,0 +1,22 @@
+{
+  "basis": "Exact resistor pairs selected by user in the 5 us refinement table. These supersede the 13.1k/13.1k pair for this standalone tolerance study.",
+  "maximum_time_step_s": 5e-06,
+  "oscillators": {
+    "770": {
+      "R1_parts_ohm": "20000 + 620",
+      "R2_parts_ohm": "20000 + 560",
+      "target_hz": 770,
+      "R1_ohm": 20620,
+      "R2_ohm": 20560,
+      "simulated_frequency_hz": 769.5837490130649
+    },
+    "1209": {
+      "R1_parts_ohm": "13000 + 82",
+      "R2_parts_ohm": "13000 + 110",
+      "target_hz": 1209,
+      "R1_ohm": 13082,
+      "R2_ohm": 13110,
+      "simulated_frequency_hz": 1209.0978384524221
+    }
+  }
+}

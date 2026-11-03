@@ -1,0 +1,136 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: two refined wien oscillators and tl074 summing amplifier
+
+binary raw file "waveform.raw"
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+No. of Data Columns : 6  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vcc                                         12
+vee                                        -12
+xlow.11                               -11.6546
+xlow.12                               -11.6545
+xlow.6                            -4.86851e-09
+xlow.7                             3.40654e-05
+low_out                            3.37523e-05
+xlow.53                                    9.8
+xlow.54                                   -9.8
+xlow.90                            2.08731e-06
+xlow.91                                     25
+xlow.92                                    -25
+xlow.99                                      0
+xlow.10                              -0.398583
+low_inv                            1.00974e-05
+low_wien                          -8.73144e-07
+xlow.9                                       0
+xlow.8                             3.40654e-05
+low_r1_junction1                   3.37523e-05
+low_series_rc                      3.37523e-05
+low_r2_junction1                  -2.37821e-08
+low_diode                          1.79754e-05
+xhigh.11                              -11.6546
+xhigh.12                              -11.6545
+xhigh.6                           -5.02256e-09
+xhigh.7                            3.51412e-05
+high_out                            3.4816e-05
+xhigh.53                                   9.8
+xhigh.54                                  -9.8
+xhigh.90                            2.1684e-06
+xhigh.91                                    25
+xhigh.92                                   -25
+xhigh.99                                     0
+xhigh.10                             -0.398583
+high_inv                           1.04248e-05
+high_wien                         -5.45732e-07
+xhigh.9                                      0
+xhigh.8                            3.51412e-05
+high_r1_junction1                   3.4816e-05
+high_series_rc                      3.4816e-05
+high_r2_junction1                 -4.57899e-09
+high_diode                          1.8548e-05
+sum_inv                            1.09707e-05
+sum_out                           -9.80276e-06
+xsum.11                               -11.6546
+xsum.12                               -11.6545
+xsum.6                             1.47709e-09
+xsum.7                            -1.01158e-05
+xsum.53                                    9.8
+xsum.54                                   -9.8
+xsum.90                           -2.08715e-06
+xsum.91                                     25
+xsum.92                                    -25
+xsum.99                                      0
+xsum.10                              -0.398582
+xsum.9                                       0
+xsum.8                            -1.01158e-05
+xunused.11                            -11.6546
+xunused.12                            -11.6545
+xunused.6                         -1.55529e-09
+xunused.7                           1.0977e-05
+unused_out                         1.09706e-05
+xunused.53                                 9.8
+xunused.54                                -9.8
+xunused.90                         4.20477e-08
+xunused.91                                  25
+xunused.92                                 -25
+xunused.99                                   0
+xunused.10                           -0.398582
+xunused.9                                    0
+xunused.8                           1.0977e-05
+h.xunused.hlim#branch             -8.40954e-20
+v.xunused.vlim#branch              4.20477e-11
+h.xsum.hlim#branch                 4.17431e-18
+v.xsum.vlim#branch                -2.08715e-09
+h.xhigh.hlim#branch               -4.33681e-18
+v.xhigh.vlim#branch                 2.1684e-09
+h.xlow.hlim#branch                -4.17463e-18
+v.xlow.vlim#branch                 2.08731e-09
+v.xunused.vln#branch              -2.50008e-11
+v.xunused.vlp#branch              -2.50008e-11
+v.xunused.ve#branch                9.80081e-12
+v.xunused.vc#branch                9.80079e-12
+v.xunused.vb#branch               -1.55529e-14
+v.xsum.vln#branch                 -2.50008e-11
+v.xsum.vlp#branch                 -2.50008e-11
+v.xsum.ve#branch                   9.80079e-12
+v.xsum.vc#branch                   9.80081e-12
+v.xsum.vb#branch                   1.47709e-14
+v.xhigh.vln#branch                -2.50008e-11
+v.xhigh.vlp#branch                -2.50008e-11
+v.xhigh.ve#branch                  9.80083e-12
+v.xhigh.vc#branch                  9.80077e-12
+v.xhigh.vb#branch                 -5.02255e-14
+v.xlow.vln#branch                 -2.50008e-11
+v.xlow.vlp#branch                 -2.50008e-11
+v.xlow.ve#branch                   9.80083e-12
+v.xlow.vc#branch                   9.80077e-12
+v.xlow.vb#branch                  -4.86846e-14
+vnegative#branch                     0.0455786
+vpositive#branch                     -0.045577
+a$poly$e.xunused.egnd#branch_1_0    -3.88524e-07
+a$poly$e.xsum.egnd#branch_1_0     -3.86395e-07
+a$poly$e.xhigh.egnd#branch_1_0    -3.90651e-07
+a$poly$e.xlow.egnd#branch_1_0      -3.9057e-07
+
+
+No. of Data Rows : 102693
+
+Total analysis time (seconds) = 3.33813
+
+Total elapsed time (seconds) = 3.342 
+
+Total DRAM available = 8192.000 MB.
+DRAM currently available = 1634.609 MB.
+Maximum ngspice program size =    4.531 MB.
+Current ngspice program size =    4.531 MB.
+

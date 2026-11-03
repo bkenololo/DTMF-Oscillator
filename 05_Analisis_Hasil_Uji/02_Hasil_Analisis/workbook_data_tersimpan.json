@@ -1,0 +1,1502 @@
+{
+  "Pengukuran lab": [
+    {
+      "row": 2,
+      "values": [
+        "Pengujian Wien DTMF — digit 4",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 3,
+      "values": [
+        "Kuning = isi hasil ukur. Abu biru = rumus otomatis. Kosong = belum diukur.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 4,
+      "values": [
+        "Parameter",
+        "Titik / keterangan",
+        "Satuan",
+        "Hasil ukur / input",
+        "Desain / simulasi",
+        "Catatan / nama file"
+      ]
+    },
+    {
+      "row": 5,
+      "values": [
+        "Tanggal pengujian",
+        null,
+        null,
+        null,
+        null,
+        "Isi tanggal aktual; data awal berasal dari percakapan."
+      ]
+    },
+    {
+      "row": 6,
+      "values": [
+        "Nama penguji",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 7,
+      "values": [
+        "Model IC",
+        null,
+        null,
+        "TL074",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 8,
+      "values": [
+        "Model osiloskop",
+        null,
+        null,
+        "DS1052E",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 9,
+      "values": [
+        "Model multimeter",
+        null,
+        null,
+        "CD800a",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 10,
+      "values": [
+        "Faktor probe",
+        "Isi ×1 / ×10",
+        null,
+        null,
+        null,
+        "Faktor probe fisik dan pengaturan scope harus sama."
+      ]
+    },
+    {
+      "row": 11,
+      "values": [
+        "Impedansi scope",
+        "Target 1 MΩ",
+        "Ω",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 12,
+      "values": [
+        "Coupling scope",
+        "DC / AC",
+        null,
+        null,
+        null,
+        "DC untuk membaca offset."
+      ]
+    },
+    {
+      "row": 13,
+      "values": [
+        "FFT window",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 14,
+      "values": [
+        "FFT sample rate",
+        "Jika tersedia",
+        "Sa/s",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 15,
+      "values": [
+        "FFT panjang rekaman",
+        "Jika tersedia",
+        "s",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 16,
+      "values": [
+        "FFT jumlah titik",
+        "Jika tersedia",
+        "titik",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 17,
+      "values": [
+        "FFT bin spacing",
+        "Jika tersedia",
+        "Hz",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 18,
+      "values": [
+        "Time/div",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 19,
+      "values": [
+        "Volt/div",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 20,
+      "values": [
+        "Suhu sekitar",
+        "Jika tersedia",
+        "°C",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 22,
+      "values": [
+        "1. Pemeriksaan sebelum power ON",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 23,
+      "values": [
+        "Orientasi IC benar",
+        "Notch ke row 1",
+        null,
+        null,
+        null,
+        "Isi: sudah dicek / belum / perlu diperbaiki."
+      ]
+    },
+    {
+      "row": 24,
+      "values": [
+        "Tidak ada short supply",
+        "Periksa dengan power OFF",
+        null,
+        null,
+        null,
+        "Isi: sudah dicek / belum / perlu diperbaiki."
+      ]
+    },
+    {
+      "row": 25,
+      "values": [
+        "GND tersambung bersama",
+        "GND ≠ −12 V",
+        null,
+        null,
+        null,
+        "Isi: sudah dicek / belum / perlu diperbaiki."
+      ]
+    },
+    {
+      "row": 26,
+      "values": [
+        "Polaritas 10 µF benar",
+        "+ rail: + ke +12 V; − rail: + ke GND",
+        null,
+        null,
+        null,
+        "Isi: sudah dicek / belum / perlu diperbaiki."
+      ]
+    },
+    {
+      "row": 27,
+      "values": [
+        "Dioda antiparalel benar",
+        "Hanya melintang resistor 7,5 kΩ",
+        null,
+        null,
+        null,
+        "Isi: sudah dicek / belum / perlu diperbaiki."
+      ]
+    },
+    {
+      "row": 29,
+      "values": [
+        "2. Supply — ukur terhadap GND",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 30,
+      "values": [
+        "Supply positif",
+        "Pin 4 / E4",
+        "V",
+        11.99,
+        12,
+        null
+      ]
+    },
+    {
+      "row": 31,
+      "values": [
+        "Supply negatif",
+        "Pin 11 / F4",
+        "V",
+        11.98,
+        -12,
+        null
+      ]
+    },
+    {
+      "row": 32,
+      "values": [
+        "Arus channel positif",
+        "Bench supply",
+        "mA",
+        0,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 33,
+      "values": [
+        "Arus channel negatif",
+        "Bench supply",
+        "mA",
+        0,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 35,
+      "values": [
+        "3. Osilator — tetap terhubung ke summer",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 36,
+      "values": [
+        "Frekuensi rendah",
+        "Pin 1 / E1",
+        "Hz",
+        769.2,
+        769.612324,
+        "Target nominal 770 Hz."
+      ]
+    },
+    {
+      "row": 37,
+      "values": [
+        "Error rendah terhadap target",
+        "(ukur − target) / target",
+        "%",
+        -0.00103896103896098,
+        null,
+        "Rumus; negatif berarti lebih rendah."
+      ]
+    },
+    {
+      "row": 38,
+      "values": [
+        "Vpp rendah",
+        "Pin 1 / E1",
+        "V",
+        5.76,
+        6.062353,
+        null
+      ]
+    },
+    {
+      "row": 39,
+      "values": [
+        "Vmax rendah",
+        "Pin 1 / E1",
+        "V",
+        2.8,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 40,
+      "values": [
+        "Vmin rendah",
+        "Pin 1 / E1",
+        "V",
+        -2.96,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 41,
+      "values": [
+        "DC rata-rata rendah",
+        "Pin 1 / E1",
+        "V",
+        -0.0427,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 42,
+      "values": [
+        "Bentuk gelombang rendah",
+        "Pin 1 / E1",
+        null,
+        "Sinus mulus",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 43,
+      "values": [
+        "Kestabilan rendah",
+        "Amplitudo / frekuensi",
+        null,
+        "Vpp stabil, frekuensi stabil",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 44,
+      "values": [
+        "Screenshot rendah",
+        "Nama file",
+        null,
+        "newfile1.csv : y-t osilator 770\nnewfile5.bmp : y-t osilator 770",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 45,
+      "values": [
+        "Frekuensi tinggi",
+        "Pin 7 / E7",
+        "Hz",
+        1190,
+        1209.21145,
+        "Data awal: pembacaan ≈1,19 kHz; bukan presisi 1 Hz."
+      ]
+    },
+    {
+      "row": 46,
+      "values": [
+        "Error tinggi terhadap target",
+        "(ukur − target) / target",
+        "%",
+        -0.015715467328370553,
+        null,
+        "Target nominal 1209 Hz; hasil mengikuti presisi input."
+      ]
+    },
+    {
+      "row": 47,
+      "values": [
+        "Vpp tinggi",
+        "Pin 7 / E7",
+        "V",
+        4.64,
+        6.144089,
+        "Data awal dari pengukuran pengguna."
+      ]
+    },
+    {
+      "row": 48,
+      "values": [
+        "Vmax tinggi",
+        "Pin 7 / E7",
+        "V",
+        2.32,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 49,
+      "values": [
+        "Vmin tinggi",
+        "Pin 7 / E7",
+        "V",
+        -2.32,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 50,
+      "values": [
+        "DC rata-rata tinggi",
+        "Pin 7 / E7",
+        "V",
+        -0.0123,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 51,
+      "values": [
+        "Bentuk gelombang tinggi",
+        "Pin 7 / E7",
+        null,
+        "Sinus mulus",
+        null,
+        "Pengamatan awal pengguna."
+      ]
+    },
+    {
+      "row": 52,
+      "values": [
+        "Kestabilan tinggi",
+        "Amplitudo / frekuensi",
+        null,
+        "Vpp stabil, frekuensi stabil",
+        null,
+        "Pengamatan awal pengguna."
+      ]
+    },
+    {
+      "row": 53,
+      "values": [
+        "Screenshot tinggi",
+        "Nama file",
+        null,
+        "newfile2.csv : y-t osilator 1209\nnewfile8.bmp : y-t osilator 1209",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 55,
+      "values": [
+        "4. Output summer — pin 8 / F7",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 56,
+      "values": [
+        "Vpp gabungan",
+        "Pin 8 / F7",
+        "V",
+        4.68,
+        5.548319,
+        null
+      ]
+    },
+    {
+      "row": 57,
+      "values": [
+        "Vmax gabungan",
+        "Pin 8 / F7",
+        "V",
+        2.32,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 58,
+      "values": [
+        "Vmin gabungan",
+        "Pin 8 / F7",
+        "V",
+        -2.36,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 59,
+      "values": [
+        "DC rata-rata gabungan",
+        "Pin 8 / F7",
+        "V",
+        -0.0235,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 60,
+      "values": [
+        "Vrms gabungan",
+        "Pin 8 / F7",
+        "V",
+        1.19,
+        1.416689,
+        null
+      ]
+    },
+    {
+      "row": 61,
+      "values": [
+        "Clipping terlihat?",
+        "Ya / tidak",
+        null,
+        "tidak",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 62,
+      "values": [
+        "Screenshot gabungan",
+        "Nama file",
+        null,
+        "newfile0.csv : y-t summing\nnewfile0.bmp : y-t summing bmp",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 64,
+      "values": [
+        "5. FFT — semua tetap terhubung, pengaturan sama",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 65,
+      "values": [
+        "Nada / posisi",
+        "Titik probe",
+        "Frekuensi aktual (Hz) baca cursor",
+        "Level (dBVrms) baca cursor",
+        "Fundamental (Vrms)",
+        "Fundamental (Vpp sinus)"
+      ]
+    },
+    {
+      "row": 66,
+      "values": [
+        "A: rendah sebelum summer",
+        "Pin 1 / E1",
+        760,
+        4,
+        1.5848931924611136,
+        4.482754895382598
+      ]
+    },
+    {
+      "row": 67,
+      "values": [
+        "B: tinggi sebelum summer",
+        "Pin 7 / E7",
+        1200,
+        1.6,
+        1.202264434617413,
+        3.4005173379895335
+      ]
+    },
+    {
+      "row": 68,
+      "values": [
+        "C: rendah sesudah summer",
+        "Pin 8 / F7",
+        760,
+        -0.8,
+        0.9120108393559097,
+        2.579556196096795
+      ]
+    },
+    {
+      "row": 69,
+      "values": [
+        "D: tinggi sesudah summer",
+        "Pin 8 / F7",
+        1200,
+        -4,
+        0.6309573444801932,
+        1.7846168676856045
+      ]
+    },
+    {
+      "row": 70,
+      "values": [
+        "Data awal: C = −1,6 dBVrms. Vpp pada FFT adalah komponen sinus, bukan Vpp gabungan.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 72,
+      "values": [
+        "Perhitungan",
+        "Definisi",
+        "Satuan",
+        "Hasil otomatis",
+        "Pembanding",
+        "Catatan"
+      ]
+    },
+    {
+      "row": 73,
+      "values": [
+        "Gain rendah",
+        "C − A",
+        "dB",
+        -4.8,
+        -6.848453616444125,
+        "Target −6,85 dB, bukan nilai level FFT."
+      ]
+    },
+    {
+      "row": 74,
+      "values": [
+        "Magnitudo gain rendah",
+        "10^(gain dB / 20)",
+        "V/V",
+        0.5754399373371569,
+        0.45454545454545453,
+        null
+      ]
+    },
+    {
+      "row": 75,
+      "values": [
+        "Gain tinggi",
+        "D − B",
+        "dB",
+        -5.6,
+        -6.848453616444125,
+        null
+      ]
+    },
+    {
+      "row": 76,
+      "values": [
+        "Magnitudo gain tinggi",
+        "10^(gain dB / 20)",
+        "V/V",
+        0.5248074602497725,
+        0.45454545454545453,
+        null
+      ]
+    },
+    {
+      "row": 77,
+      "values": [
+        "Twist output",
+        "D − C",
+        "dB",
+        -3.2,
+        0.116115,
+        "Positif: nada tinggi lebih kuat; 0 dB: seimbang."
+      ]
+    },
+    {
+      "row": 78,
+      "values": [
+        "Screenshot FFT",
+        "Nama file",
+        null,
+        "newfile1.bmp : fft 770-1209 summing bmp (cursor frekuensi)\nnewfile2.bmp : fft 2310-3627 (harmonik) summing bmp (cursor frekuensi)\nnewfile3.bmp : fft 770-1209 summing bmp (cursor dB)\nnewfile4.bmp : fft 2310-3627 (harmonik) summing bmp (cursor dB)\nnewfile6.bmp : fft 770-2310 (cursor frekuensi)\nnewfile7.bmp : fft 770-2310 (cursor dB)\nnewfile9.bmp : fft 1209-3627 (cursor frekuensi)\nnewfile10.bmp : fft 1209-3627 (cursor dB)",
+        null,
+        "Simpan FFT output summer dan kedua output osilator."
+      ]
+    },
+    {
+      "row": 80,
+      "values": [
+        "6. Distorsi / fase — jika alat mendukung",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 81,
+      "values": [
+        "THD osilator rendah",
+        "Pin 1",
+        "%",
+        null,
+        3.828157,
+        "Simulasi harmonik ke-2 sampai ke-10; isi persen, mis. 3,8."
+      ]
+    },
+    {
+      "row": 82,
+      "values": [
+        "THD osilator tinggi",
+        "Pin 7",
+        "%",
+        null,
+        3.858994,
+        "Catat definisi THD alat. Jangan THD otomatis sinyal gabungan."
+      ]
+    },
+    {
+      "row": 83,
+      "values": [
+        "Definisi THD alat",
+        "Rentang harmonik",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 84,
+      "values": [
+        "Fase gain rendah",
+        "Output / input pada nada rendah",
+        "°",
+        null,
+        179.9749,
+        "Opsional; jangan zero crossing sinyal gabungan."
+      ]
+    },
+    {
+      "row": 85,
+      "values": [
+        "Fase gain tinggi",
+        "Output / input pada nada tinggi",
+        "°",
+        null,
+        179.9606,
+        null
+      ]
+    },
+    {
+      "row": 86,
+      "values": [
+        "Spektrum harmonik",
+        "Nama file",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 88,
+      "values": [
+        "7. Startup — jika direkam",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 89,
+      "values": [
+        "Settling rendah",
+        "Pin 1",
+        "ms",
+        null,
+        20,
+        null
+      ]
+    },
+    {
+      "row": 90,
+      "values": [
+        "Settling tinggi",
+        "Pin 7",
+        "ms",
+        null,
+        20,
+        null
+      ]
+    },
+    {
+      "row": 91,
+      "values": [
+        "Overshoot / gagal startup",
+        "Catat tiap osilator",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 92,
+      "values": [
+        "Metode settling",
+        "Bin / manual",
+        null,
+        null,
+        null,
+        "Simulasi: bin 10 ms, Vpp tetap dalam ±2% nilai akhir."
+      ]
+    },
+    {
+      "row": 93,
+      "values": [
+        "Screenshot startup",
+        "Nama file",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 95,
+      "values": [
+        "8. Decoder DTMF",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 96,
+      "values": [
+        "Metode input",
+        "WAV / input fisik",
+        null,
+        "WAV",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 97,
+      "values": [
+        "Level / attenuasi input",
+        "Sesuai spesifikasi decoder",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 98,
+      "values": [
+        "Durasi nada",
+        "Saat pengujian",
+        "s",
+        0.0655,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 99,
+      "values": [
+        "Digit terdeteksi",
+        "Target digit 4",
+        null,
+        4,
+        "4",
+        null
+      ]
+    },
+    {
+      "row": 100,
+      "values": [
+        "Percobaan berhasil",
+        null,
+        "kali",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 101,
+      "values": [
+        "Total percobaan",
+        null,
+        "kali",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 102,
+      "values": [
+        "Rasio keberhasilan",
+        "Berhasil / total",
+        "%",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 103,
+      "values": [
+        "File rekaman / log",
+        "CSV / WAV / screenshot",
+        null,
+        "NewFile0_DTMF_48k.wav",
+        null,
+        null
+      ]
+    },
+    {
+      "row": 105,
+      "values": [
+        "9. Penyetelan dan sumber pembanding",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 106,
+      "values": [
+        "Komponen yang diubah",
+        null,
+        null,
+        null,
+        null,
+        "Simpan salinan workbook sebelum mengubah rangkaian."
+      ]
+    },
+    {
+      "row": 107,
+      "values": [
+        "Alasan / hasil perubahan",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 109,
+      "values": [
+        "Sumber data awal",
+        null,
+        null,
+        null,
+        null,
+        "Percakapan pengguna: ≈1190 Hz; 4,64 Vpp; sinus mulus dan stabil; summer rendah −1,6 dBVrms."
+      ]
+    },
+    {
+      "row": 110,
+      "values": [
+        "Sumber simulasi",
+        null,
+        null,
+        null,
+        null,
+        "wien_dtmf_summing_corrected: nominal.json dan numerical_and_load_checks.csv; ±12 V, 27 °C, dt 1,25 µs, beban 1 MΩ."
+      ]
+    },
+    {
+      "row": 111,
+      "values": [
+        "Makna pembanding",
+        null,
+        null,
+        null,
+        null,
+        "Pembanding simulasi bukan batas kelulusan. Rangkaian tetap terhubung untuk gain dan twist."
+      ]
+    }
+  ],
+  "Komponen dan koneksi": [
+    {
+      "row": 2,
+      "values": [
+        "Komponen dan koneksi rangkaian",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 3,
+      "values": [
+        "Isi nilai aktual sebelum power ON; untuk resistor, ukur terlepas jika ada jalur paralel.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 4,
+      "values": [
+        "Komponen / fungsi",
+        "Nominal / tipe",
+        "Satuan",
+        "Nilai terukur",
+        "Toleransi (%)",
+        "Koneksi / catatan"
+      ]
+    },
+    {
+      "row": 5,
+      "values": [
+        "770 seri R besar",
+        20000,
+        "Ω",
+        20020,
+        1,
+        "Output pin 1 ke RC seri"
+      ]
+    },
+    {
+      "row": 6,
+      "values": [
+        "770 seri R kecil",
+        620,
+        "Ω",
+        620,
+        1,
+        "Diseri dengan 20 kΩ: total 20620 Ω"
+      ]
+    },
+    {
+      "row": 7,
+      "values": [
+        "770 shunt R besar",
+        20000,
+        "Ω",
+        19690,
+        1,
+        "Cabang dari (+) pin 3 ke GND"
+      ]
+    },
+    {
+      "row": 8,
+      "values": [
+        "770 shunt R kecil",
+        560,
+        "Ω",
+        562,
+        1,
+        "Diseri dengan 20 kΩ: total 20560 Ω"
+      ]
+    },
+    {
+      "row": 9,
+      "values": [
+        "1209 seri R besar",
+        13000,
+        "Ω",
+        12820,
+        1,
+        "Output pin 7 ke RC seri"
+      ]
+    },
+    {
+      "row": 10,
+      "values": [
+        "1209 seri R kecil",
+        82,
+        "Ω",
+        81.2,
+        1,
+        "Diseri dengan 13 kΩ: total 13082 Ω"
+      ]
+    },
+    {
+      "row": 11,
+      "values": [
+        "1209 shunt R besar",
+        13000,
+        "Ω",
+        12800,
+        1,
+        "Cabang dari (+) pin 5 ke GND"
+      ]
+    },
+    {
+      "row": 12,
+      "values": [
+        "1209 shunt R kecil",
+        110,
+        "Ω",
+        108.14963014331946,
+        null,
+        "Aktual: dua 220 Ω paralel; catat toleransi part"
+      ]
+    },
+    {
+      "row": 13,
+      "values": [
+        "Pengganti 110 Ω, part 1",
+        220,
+        "Ω",
+        215.9,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 14,
+      "values": [
+        "Pengganti 110 Ω, part 2",
+        220,
+        "Ω",
+        216.7,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 15,
+      "values": [
+        "770 C seri",
+        10,
+        "nF",
+        10.23,
+        10,
+        "Output melalui R seri dan C ke pin 3"
+      ]
+    },
+    {
+      "row": 16,
+      "values": [
+        "770 C shunt",
+        10,
+        "nF",
+        10.07,
+        10,
+        "Pin 3 ke GND"
+      ]
+    },
+    {
+      "row": 17,
+      "values": [
+        "1209 C seri",
+        10,
+        "nF",
+        10.12,
+        10,
+        "Output melalui R seri dan C ke pin 5"
+      ]
+    },
+    {
+      "row": 18,
+      "values": [
+        "1209 C shunt",
+        10,
+        "nF",
+        10.34,
+        10,
+        "Pin 5 ke GND"
+      ]
+    },
+    {
+      "row": 19,
+      "values": [
+        "770 Rg",
+        10000,
+        "Ω",
+        9050,
+        1,
+        "Pin 2 ke GND"
+      ]
+    },
+    {
+      "row": 20,
+      "values": [
+        "770 feedback tetap",
+        15000,
+        "Ω",
+        14820,
+        1,
+        "Pin 1 ke node dioda"
+      ]
+    },
+    {
+      "row": 21,
+      "values": [
+        "770 feedback dibatasi",
+        7500,
+        "Ω",
+        7340,
+        1,
+        "Node dioda ke pin 2; dioda melintang di sini"
+      ]
+    },
+    {
+      "row": 22,
+      "values": [
+        "1209 Rg",
+        10000,
+        "Ω",
+        9520,
+        1,
+        "Pin 6 ke GND"
+      ]
+    },
+    {
+      "row": 23,
+      "values": [
+        "1209 feedback tetap",
+        15000,
+        "Ω",
+        14950,
+        1,
+        "Pin 7 ke node dioda"
+      ]
+    },
+    {
+      "row": 24,
+      "values": [
+        "1209 feedback dibatasi",
+        7500,
+        "Ω",
+        7430,
+        1,
+        "Node dioda ke pin 6; dioda melintang di sini"
+      ]
+    },
+    {
+      "row": 25,
+      "values": [
+        "Summer input rendah",
+        22000,
+        "Ω",
+        20520,
+        1,
+        "Pin 1 ke pin 9"
+      ]
+    },
+    {
+      "row": 26,
+      "values": [
+        "Summer input tinggi",
+        22000,
+        "Ω",
+        20500,
+        1,
+        "Pin 7 ke pin 9"
+      ]
+    },
+    {
+      "row": 27,
+      "values": [
+        "Summer feedback",
+        10000,
+        "Ω",
+        9730,
+        1,
+        "Pin 8 ke pin 9; pin 10 ke GND"
+      ]
+    },
+    {
+      "row": 28,
+      "values": [
+        "Dioda 770, 2 buah",
+        "1N4148",
+        null,
+        null,
+        null,
+        "Antiparalel melintang 7,5 kΩ"
+      ]
+    },
+    {
+      "row": 29,
+      "values": [
+        "Dioda 1209, 2 buah",
+        "1N4148",
+        null,
+        null,
+        null,
+        "Antiparalel melintang 7,5 kΩ"
+      ]
+    },
+    {
+      "row": 30,
+      "values": [
+        "Decoupling positif keramik",
+        100,
+        "nF",
+        103.2,
+        null,
+        "+12 V ke GND; dekat pin 4"
+      ]
+    },
+    {
+      "row": 31,
+      "values": [
+        "Decoupling positif elektrolit",
+        10,
+        "µF",
+        10.23,
+        null,
+        "+ ke +12 V; − ke GND; rating ≥25 V"
+      ]
+    },
+    {
+      "row": 32,
+      "values": [
+        "Decoupling negatif keramik",
+        100,
+        "nF",
+        101.6,
+        null,
+        "−12 V ke GND; dekat pin 11"
+      ]
+    },
+    {
+      "row": 33,
+      "values": [
+        "Decoupling negatif elektrolit",
+        10,
+        "µF",
+        10.55,
+        null,
+        "+ ke GND; − ke −12 V; rating ≥25 V"
+      ]
+    },
+    {
+      "row": 34,
+      "values": [
+        "IC TL074",
+        "DIP-14",
+        null,
+        null,
+        null,
+        "Pin 4 = +12 V; pin 11 = −12 V"
+      ]
+    },
+    {
+      "row": 35,
+      "values": [
+        "Op-amp tidak digunakan",
+        "Kanal D",
+        null,
+        null,
+        null,
+        "Pin 12 ke GND; pin 13 ke pin 14"
+      ]
+    },
+    {
+      "row": 36,
+      "values": [
+        "Scope",
+        "1 MΩ input",
+        null,
+        null,
+        null,
+        "Beban alat ukur; tidak perlu resistor 1 MΩ tambahan"
+      ]
+    },
+    {
+      "row": 38,
+      "values": [
+        "Total shunt tinggi aktual",
+        null,
+        "Ω",
+        12908.14963014332,
+        null,
+        "13 kΩ ditambah hasil paralel dua 220 Ω."
+      ]
+    },
+    {
+      "row": 40,
+      "values": [
+        "Sumber desain",
+        null,
+        null,
+        null,
+        null,
+        "Nilai final yang disepakati dalam percakapan dan skematik full_wien_dtmf_schematic.png."
+      ]
+    }
+  ]
+}

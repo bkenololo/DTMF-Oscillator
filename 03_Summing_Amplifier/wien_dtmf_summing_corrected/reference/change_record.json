@@ -1,0 +1,45 @@
+{
+  "source_folder": "/Users/bkent/.codex/.chatgpt-projects/g-p-6abf46ea21888191bc39a010593d8a4a/outputs/wien_dtmf_summing",
+  "original_manifest_files_checked": 3000,
+  "original_folder_preserved": true,
+  "active_simulation_settings_unchanged": {
+    "summing_input_resistances_ohm": [
+      22000,
+      22000
+    ],
+    "summing_feedback_resistance_ohm": 10000,
+    "output_load_ohm": 1000000.0,
+    "supply_magnitude_v": 12.0,
+    "temperature_c": 27.0,
+    "gain_ground_resistance_ohm": 10000,
+    "gain_feedback_fixed_ohm": 15000,
+    "gain_feedback_bypassed_ohm": 7500,
+    "transient_stop_s": 0.5,
+    "maximum_time_step_s": 1.25e-06,
+    "tolerance_grid_timestep_s": 5e-06,
+    "analysis_window_s": 0.1
+  },
+  "changed_physical_parts": {
+    "1209_R1": {
+      "old": [
+        13000,
+        100
+      ],
+      "new": [
+        13000,
+        82
+      ]
+    },
+    "1209_R2": {
+      "old": [
+        13000,
+        100
+      ],
+      "new": [
+        13000,
+        110
+      ]
+    }
+  },
+  "other_changes": "Fresh outputs; explicit user-pinned choice; same-timestep standalone comparisons; normalized physical cache identities; removal of unused old capacitor-search configuration keys."
+}

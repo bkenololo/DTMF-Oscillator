@@ -1,0 +1,9 @@
+#!/bin/sh
+# Version banner cache only; every simulation invokes the unchanged ngspice binary.
+set -eu
+binary_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ "$#" -eq 1 ] && [ "$1" = "--version" ]; then
+  cat "$binary_dir/version.txt"
+  exit 0
+fi
+exec "$binary_dir/ngspice-real" "$@"

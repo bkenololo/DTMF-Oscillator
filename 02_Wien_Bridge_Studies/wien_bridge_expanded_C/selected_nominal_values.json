@@ -1,0 +1,53 @@
+{
+  "selection_rule": "Closest nominal frequency among the five closest 5 us-grid candidates per target, compared at a common 1.25 us timestep, then checked at 0.625 us. No tolerance offsets used.",
+  "oscillators": {
+    "770": {
+      "case_id": "f770_16168637e27e",
+      "target_hz": 770,
+      "C_nominal_f": 1e-08,
+      "C_nominal_nF": 10.0,
+      "C_nominal_value_series": "E12/E24",
+      "R1_ohm": 20620.0,
+      "R2_ohm": 20560.0,
+      "R1_parts_ohm": "20000 + 620",
+      "R2_parts_ohm": "20000 + 560",
+      "resistor_count": 4.0,
+      "theory_zero_phase_hz": 772.9728607444741,
+      "simulated_frequency_hz": 769.6176096158637,
+      "simulated_abs_error_percent": 0.049661088848873894,
+      "steady_state_vpp_v": 6.062360690554339,
+      "thd_2_to_10_percent": 3.828199865774394,
+      "settling_time_s": 0.02,
+      "oscillation_status": "settled_oscillation",
+      "source_stage": "fine_R",
+      "original_grid_frequency_hz": 769.5837490130649,
+      "verification_maximum_timestep_s": 1.25e-06,
+      "half_timestep_frequency_hz": 769.619305764604,
+      "numerical_frequency_change_percent": 0.0002203880188003435
+    },
+    "1209": {
+      "case_id": "f1209_09d51fc30037",
+      "target_hz": 1209,
+      "C_nominal_f": 1e-08,
+      "C_nominal_nF": 10.0,
+      "C_nominal_value_series": "E12/E24",
+      "R1_ohm": 13100.0,
+      "R2_ohm": 13100.0,
+      "R1_parts_ohm": "13000 + 100",
+      "R2_parts_ohm": "13000 + 100",
+      "resistor_count": 4.0,
+      "theory_zero_phase_hz": 1214.9232297091246,
+      "simulated_frequency_hz": 1208.8873484352048,
+      "simulated_abs_error_percent": 0.00931774729488955,
+      "steady_state_vpp_v": 6.109471234958514,
+      "thd_2_to_10_percent": 3.844742668183886,
+      "settling_time_s": 0.02,
+      "oscillation_status": "settled_oscillation",
+      "source_stage": "fine_R",
+      "original_grid_frequency_hz": 1208.7612916760543,
+      "verification_maximum_timestep_s": 1.25e-06,
+      "half_timestep_frequency_hz": 1208.893914568933,
+      "numerical_frequency_change_percent": 0.0005431521864015395
+    }
+  }
+}

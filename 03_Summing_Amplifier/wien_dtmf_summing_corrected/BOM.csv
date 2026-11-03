@@ -1,0 +1,16 @@
+nominal_value,type,quantity,specification_or_note
+TL074,quad op-amp,1,Supplied model; physical package DIP-14 per partner BOM
+1N4148,diode,4,Antiparallel pairs; 2 per oscillator
+20 kΩ,resistor,2,"1%, metal film, 1/4 W"
+620 Ω,resistor,1,"1%, metal film, 1/4 W; refined value"
+560 Ω,resistor,1,"1%, metal film, 1/4 W; refined value"
+13 kΩ,resistor,2,"1%, metal film, 1/4 W"
+10 kΩ,resistor,3,"1%, metal film, 1/4 W; 2 oscillator Rg + 1 summer Rf"
+15 kΩ,resistor,2,"1%, metal film, 1/4 W"
+7.5 kΩ,resistor,2,"1%, metal film, 1/4 W"
+22 kΩ,resistor,2,"1%, metal film, 1/4 W; summer inputs"
+10 nF,capacitor,4,User-reported ±10%; ±1%/±5% comparison scenarios also simulated
+100 nF,supply bypass capacitor,2,Partner BOM; connected across ideal supply rails in this model
+10 µF,supply bulk capacitor,2,"Partner BOM, >=25 V; negative-rail positive terminal to ground"
+82 Ω,resistor,1,"1%, metal film, 1/4 W; user-pinned refined 1209 Hz oscillator value"
+110 Ω,resistor,1,"1%, metal film, 1/4 W; user-pinned refined 1209 Hz oscillator value"

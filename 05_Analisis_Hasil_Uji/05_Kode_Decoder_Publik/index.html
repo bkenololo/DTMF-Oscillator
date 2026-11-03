@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DTMF Decoder</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☎️</text></svg>">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+  <style>
+    span {
+      display: inline-block;
+      margin: 5px 15px; 
+      margin-left: 0;
+    }
+    input, button {
+      line-height: 25px;
+    }
+    input {
+      min-width: 150px;
+    }
+    button {
+      box-shadow: 0 2px rgba(144, 144, 144, 0.5);
+    }
+    button:active {
+      box-shadow: none;
+    }
+    small {
+      position: absolute;
+      font-size: 11px;
+      font-style: italic;
+      margin-top: -4px;
+      opacity: 0;
+      transition: opacity 0.1s linear;
+    }
+    span:hover > small, input:focus + small {
+      opacity: 0.5;
+    }
+    pre {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h2>DTMF Decoder</h2>
+  <p>
+    <span>
+      <label for="file-selector">Audio file:</label>
+      <input type="file" id="file-selector" accept="audio/*">
+    </span>
+    <span>
+      <label for="threshold-input">Sensitivity threshold:</label>
+      <input type="number" id="threshold-input" min="0.000" max="1.000" step="0.001" value="0.050">
+      <small>smaller means more sensitive</small>
+    </span>
+    <span>
+      <button id="decode-button">Decode</button>
+    </span>
+  </p>
+
+  <h3>Output</h3>
+  <pre><code id="output"><i>waiting for an audio file...</i></code></pre>
+
+  <script src="Goertzel.js"></script>
+  <script src="DTMFDecoder.js"></script>
+  <script>
+    const fileSelector = document.getElementById("file-selector");
+    const thresholdInput = document.getElementById("threshold-input");
+    const decodeButton = document.getElementById("decode-button");
+    const output = document.getElementById("output");
+
+    let audioBuffer;
+
+    function decode() {
+      const secLength = 6;
+      output.innerHTML = "1s ".padStart(secLength, "0");
+      const dtmfDecoder = new DTMFDecoder({
+        energyThreshold: thresholdInput.value,
+        sampleRate: audioBuffer.sampleRate
+      });
+      const bufferSize = 320;
+      const pcmData = audioBuffer.getChannelData(0);
+      const pcmDataLength = pcmData.length - bufferSize;
+      let decoded = "";
+      let previous = "";
+      for (let i = 0, j = 1; i <= pcmDataLength; i += bufferSize) {
+        const buffer = pcmData.subarray(i, i + bufferSize);
+        const current = dtmfDecoder.processBuffer(buffer);
+        if (previous !== current) {
+          decoded += current;
+          previous = current;
+        }
+        if (i > 0 && i % audioBuffer.sampleRate === 0) {
+          output.innerHTML += "<br>" + (++j + "s ").padStart(secLength, "0");
+        }
+        output.innerHTML += !current ? "." : current;
+      }
+      output.innerHTML += "<br><br><b>Decoded:</b> " + decoded;
+    }
+
+    fileSelector.addEventListener("change", event => {
+      output.innerHTML = "<i>reading the audio file...</i>";
+      const audioContext = new (window.AudioContext || window.webkitAudioContext)({
+        sampleRate: 8000
+      });
+      const fileReader = new FileReader();
+      fileReader.onload = () => {
+        audioContext.decodeAudioData(fileReader.result, buffer => {
+          audioBuffer = buffer;
+          decode();
+        }, e => {
+          console.log(e.err);
+        });
+      }
+      if (event.target.files[0]) {
+        fileReader.readAsArrayBuffer(event.target.files[0]);
+      } else {
+        output.innerHTML = "<i>waiting for an audio file...</i>";
+      }
+    });
+
+    decodeButton.addEventListener("click", () => {
+      if (audioBuffer) {
+        decode();
+      }
+    })
+  </script>
+</body>
+</html>

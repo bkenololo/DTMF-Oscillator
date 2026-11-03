@@ -1,0 +1,211 @@
+{
+  "scope": "Expanded common nominal C; two independent oscillators; no summing stage",
+  "incomplete": false,
+  "scenario_rows": 1350,
+  "unique_physical_circuits": 1250,
+  "capacitance_nominal_values_nF": [
+    10.0
+  ],
+  "primary_cap_tolerance_percent": 10.0,
+  "ngspice_version": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n******",
+  "oscillators": {
+    "770": {
+      "scenario_rows": 675,
+      "unique_physical_circuits": 625,
+      "status_counts": {
+        "settled_oscillation": 675
+      },
+      "simulator_failures": 0,
+      "best_nominal_any_pair": {
+        "case_id": "f770_16168637e27e",
+        "target_hz": 770,
+        "C_nominal_f": 1e-08,
+        "C_nominal_nF": 10.0,
+        "C_nominal_value_series": "E12/E24",
+        "R1_ohm": 20620.0,
+        "R2_ohm": 20560.0,
+        "R1_parts_ohm": "20000 + 620",
+        "R2_parts_ohm": "20000 + 560",
+        "resistor_count": 4,
+        "theory_zero_phase_hz": 772.9728607444741,
+        "simulated_frequency_hz": 769.5837490130649,
+        "simulated_abs_error_percent": 0.05405856973183078,
+        "steady_state_vpp_v": 6.0623731036666,
+        "thd_2_to_10_percent": 3.8253442437204415,
+        "settling_time_s": 0.02,
+        "oscillation_status": "settled_oscillation"
+      },
+      "best_balanced_nominal": {
+        "case_id": "f770_5ec665151a97",
+        "target_hz": 770,
+        "C_nominal_f": 1e-08,
+        "C_nominal_nF": 10.0,
+        "C_nominal_value_series": "E12/E24",
+        "R1_ohm": 20560.0,
+        "R2_ohm": 20560.0,
+        "R1_parts_ohm": "20000 + 560",
+        "R2_parts_ohm": "20000 + 560",
+        "resistor_count": 4,
+        "theory_zero_phase_hz": 774.099917762137,
+        "simulated_frequency_hz": 770.6759814258589,
+        "simulated_abs_error_percent": 0.08778979556609556,
+        "steady_state_vpp_v": 6.109306589047142,
+        "thd_2_to_10_percent": 3.8454722460945656,
+        "settling_time_s": 0.02,
+        "oscillation_status": "settled_oscillation"
+      },
+      "best_by_nominal_capacitance": [
+        {
+          "case_id": "f770_16168637e27e",
+          "target_hz": 770,
+          "C_nominal_f": 1e-08,
+          "C_nominal_nF": 10.0,
+          "C_nominal_value_series": "E12/E24",
+          "R1_ohm": 20620.0,
+          "R2_ohm": 20560.0,
+          "R1_parts_ohm": "20000 + 620",
+          "R2_parts_ohm": "20000 + 560",
+          "resistor_count": 4,
+          "theory_zero_phase_hz": 772.9728607444741,
+          "simulated_frequency_hz": 769.5837490130649,
+          "simulated_abs_error_percent": 0.05405856973183078,
+          "steady_state_vpp_v": 6.0623731036666,
+          "thd_2_to_10_percent": 3.8253442437204415,
+          "settling_time_s": 0.02,
+          "oscillation_status": "settled_oscillation"
+        }
+      ],
+      "previous_10nF_best": {
+        "case_id": "f770_36a2dbd17068",
+        "R1_ohm": 20680.0,
+        "R2_ohm": 20680.0,
+        "R1_parts_ohm": "20000 + 680",
+        "R2_parts_ohm": "20000 + 680",
+        "simulated_frequency_hz": 766.2089902806756,
+        "simulated_abs_error_percent": 0.4923389245875835,
+        "steady_state_vpp_v": 6.109304784557489,
+        "thd_2_to_10_percent": 3.8454947797423737,
+        "settling_time_s": 0.02,
+        "resistor_count": 4
+      }
+    },
+    "1209": {
+      "scenario_rows": 675,
+      "unique_physical_circuits": 625,
+      "status_counts": {
+        "settled_oscillation": 675
+      },
+      "simulator_failures": 0,
+      "best_nominal_any_pair": {
+        "case_id": "f1209_046ac066d60b",
+        "target_hz": 1209,
+        "C_nominal_f": 1e-08,
+        "C_nominal_nF": 10.0,
+        "C_nominal_value_series": "E12/E24",
+        "R1_ohm": 13082.0,
+        "R2_ohm": 13110.0,
+        "R1_parts_ohm": "13000 + 82",
+        "R2_parts_ohm": "13000 + 110",
+        "resistor_count": 4,
+        "theory_zero_phase_hz": 1215.2950063751457,
+        "simulated_frequency_hz": 1209.0978384524221,
+        "simulated_abs_error_percent": 0.008092510539465532,
+        "steady_state_vpp_v": 6.144114608855222,
+        "thd_2_to_10_percent": 3.8538676106247736,
+        "settling_time_s": 0.02,
+        "oscillation_status": "settled_oscillation"
+      },
+      "best_balanced_nominal": {
+        "case_id": "f1209_09d51fc30037",
+        "target_hz": 1209,
+        "C_nominal_f": 1e-08,
+        "C_nominal_nF": 10.0,
+        "C_nominal_value_series": "E12/E24",
+        "R1_ohm": 13100.0,
+        "R2_ohm": 13100.0,
+        "R1_parts_ohm": "13000 + 100",
+        "R2_parts_ohm": "13000 + 100",
+        "resistor_count": 4,
+        "theory_zero_phase_hz": 1214.9232297091246,
+        "simulated_frequency_hz": 1208.7612916760543,
+        "simulated_abs_error_percent": 0.01974427824199584,
+        "steady_state_vpp_v": 6.109488460626393,
+        "thd_2_to_10_percent": 3.8395394243886294,
+        "settling_time_s": 0.02,
+        "oscillation_status": "settled_oscillation"
+      },
+      "best_by_nominal_capacitance": [
+        {
+          "case_id": "f1209_046ac066d60b",
+          "target_hz": 1209,
+          "C_nominal_f": 1e-08,
+          "C_nominal_nF": 10.0,
+          "C_nominal_value_series": "E12/E24",
+          "R1_ohm": 13082.0,
+          "R2_ohm": 13110.0,
+          "R1_parts_ohm": "13000 + 82",
+          "R2_parts_ohm": "13000 + 110",
+          "resistor_count": 4,
+          "theory_zero_phase_hz": 1215.2950063751457,
+          "simulated_frequency_hz": 1209.0978384524221,
+          "simulated_abs_error_percent": 0.008092510539465532,
+          "steady_state_vpp_v": 6.144114608855222,
+          "thd_2_to_10_percent": 3.8538676106247736,
+          "settling_time_s": 0.02,
+          "oscillation_status": "settled_oscillation"
+        }
+      ],
+      "previous_10nF_best": {
+        "case_id": "f1209_8971f008d1ff",
+        "R1_ohm": 13000.0,
+        "R2_ohm": 13150.0,
+        "R1_parts_ohm": "13000",
+        "R2_parts_ohm": "13000 + 150",
+        "simulated_frequency_hz": 1210.9205985424105,
+        "simulated_abs_error_percent": 0.1588584402324662,
+        "steady_state_vpp_v": 6.297227504007484,
+        "thd_2_to_10_percent": 3.9126542835460905,
+        "settling_time_s": 0.02,
+        "resistor_count": 3
+      }
+    }
+  },
+  "timestep_checks": [
+    {
+      "target_hz": 770,
+      "R1_ohm": 20620.0,
+      "R2_ohm": 20560.0,
+      "original_maximum_timestep_s": 5e-06,
+      "refined_maximum_timestep_s": 2.5e-06,
+      "original_frequency_hz": 769.5837490130649,
+      "refined_frequency_hz": 769.6108253055984,
+      "original_vpp_v": 6.0623731036666,
+      "refined_vpp_v": 6.062361624801825,
+      "original_thd_percent": 3.8253442437204415,
+      "refined_thd_percent": 3.8276813523916107,
+      "original_status": "settled_oscillation",
+      "refined_status": "settled_oscillation",
+      "simulation_status": "ok",
+      "frequency_change_percent": 0.0035181797920692992,
+      "C_nominal_f": 1e-08
+    },
+    {
+      "target_hz": 1209,
+      "R1_ohm": 13082.0,
+      "R2_ohm": 13110.0,
+      "original_maximum_timestep_s": 5e-06,
+      "refined_maximum_timestep_s": 2.5e-06,
+      "original_frequency_hz": 1209.0978384524221,
+      "refined_frequency_hz": 1209.1982171654236,
+      "original_vpp_v": 6.144114608855222,
+      "refined_vpp_v": 6.144101325474955,
+      "original_thd_percent": 3.8538676106247736,
+      "refined_thd_percent": 3.858051743957595,
+      "original_status": "settled_oscillation",
+      "refined_status": "settled_oscillation",
+      "simulation_status": "ok",
+      "frequency_change_percent": 0.008301262074031542,
+      "C_nominal_f": 1e-08
+    }
+  ]
+}

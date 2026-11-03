@@ -1,0 +1,2 @@
+case_id,target_hz,C_nominal_f,C_nominal_nF,C_nominal_value_series,R1_ohm,R2_ohm,R1_parts_ohm,R2_parts_ohm,resistor_count,theory_zero_phase_hz,simulated_frequency_hz,simulated_abs_error_percent,steady_state_vpp_v,thd_2_to_10_percent,settling_time_s,oscillation_status
+f770_16168637e27e,770,1e-08,10.0,E12/E24,20620.0,20560.0,20000 + 620,20000 + 560,4,772.9728607444741,769.5837490130649,0.05405856973183078,6.0623731036666,3.8253442437204415,0.02,settled_oscillation

@@ -1,0 +1,44 @@
+{
+  "selection_rule": "Minimum nominal simulated frequency error among settled candidates in this finite C/R grid; no tolerance offsets used for selection.",
+  "primary_cap_tolerance_percent": 10.0,
+  "oscillators": {
+    "770": {
+      "case_id": "f770_6b69db58e492",
+      "target_hz": 770,
+      "C_nominal_f": 1e-08,
+      "C_nominal_nF": 10.0,
+      "C_nominal_value_series": "E12/E24",
+      "R1_ohm": 20680.0,
+      "R2_ohm": 20680.0,
+      "R1_parts_ohm": "20000 + 680",
+      "R2_parts_ohm": "20000 + 680",
+      "resistor_count": 4,
+      "theory_zero_phase_hz": 769.6080420304418,
+      "simulated_frequency_hz": 766.2089902806756,
+      "simulated_abs_error_percent": 0.4923389245875835,
+      "steady_state_vpp_v": 6.109304784557489,
+      "thd_2_to_10_percent": 3.8454947797423737,
+      "settling_time_s": 0.02,
+      "oscillation_status": "settled_oscillation"
+    },
+    "1209": {
+      "case_id": "f1209_ab752848af9c",
+      "target_hz": 1209,
+      "C_nominal_f": 1.1000000000000001e-08,
+      "C_nominal_nF": 11.0,
+      "C_nominal_value_series": "E24",
+      "R1_ohm": 13000.0,
+      "R2_ohm": 11000.0,
+      "R1_parts_ohm": "13000",
+      "R2_parts_ohm": "11000",
+      "resistor_count": 2,
+      "theory_zero_phase_hz": 1209.927722852097,
+      "simulated_frequency_hz": 1207.1703199027884,
+      "simulated_abs_error_percent": 0.15133830415315316,
+      "steady_state_vpp_v": 3.600446974477749,
+      "thd_2_to_10_percent": 1.4957092604716107,
+      "settling_time_s": 0.04,
+      "oscillation_status": "settled_oscillation"
+    }
+  }
+}

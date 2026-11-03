@@ -1,0 +1,35 @@
+{
+  "circuit_and_analysis_functions_identical": true,
+  "function_AST_sha256": {
+    "network_theory": "d04469af9ce7135e3765d0609e32d277ed0bddc6338580cbe20d11239ef36022",
+    "write_netlist": "3a39cb6e863973781ee5d26ce8e7b2a7863e7137c242fdd8378143f418dde854",
+    "read_raw": "f71791114c4f7febec75d61bee9dacb922a089275291d9c4b5b85b21b7118b95",
+    "frequency_from_crossings": "99da7cd3419ab686f00fe9c5fb37f110b33c240c3d15c990bdec053777b12ab1",
+    "harmonic_fit": "00445cbe308868160e3fd378fb9eac138ea3a6ed34dd3eaa04bd8a2689da26d3",
+    "analyze": "70b4c66f59b700ea60f8316f4919762591f55e402a52b6a30fc419a196cc7409",
+    "run_case": "467db8ddb22eeee9580cd0b2b62e35a7d38128ce1f372f33d8def3f4d44317ae"
+  },
+  "unchanged_physical_and_measurement_config": {
+    "supply_magnitude_v": 12.0,
+    "temperature_c": 27.0,
+    "gain_ground_resistance_ohm": 10000,
+    "gain_feedback_fixed_ohm": 15000,
+    "gain_feedback_bypassed_ohm": 7500,
+    "output_load_ohm": null,
+    "seed_current_a": 1e-07,
+    "seed_start_s": 1e-06,
+    "seed_duration_s": 1e-05,
+    "transient_stop_s": 0.5,
+    "maximum_time_step_s": 5e-06,
+    "analysis_window_s": 0.1,
+    "minimum_peak_to_peak_v": 0.1,
+    "settling_relative_vpp_limit": 0.02,
+    "harmonics_for_thd": 10
+  },
+  "models_identical_sha256": {
+    "TL074.301": "a5f384a32ed660490d7ad57b82ddad836dfcf3b462d9dd8987e8fd4de603b1f3",
+    "TL074_ngspice.lib": "2a6ba098bacc02ade217d9999809cc08161c2628b21cd55e90cf70c825b2b7ea",
+    "1N4148.lib": "db2ee7a82fd6398c2abb233b03e27f76fa2df1aca33a252adc24696b8764f8a7"
+  },
+  "changes": "Nominal C grid, candidate generation, physical-value deduplication, reporting and process count only. Separate fine search changes E24 series-resistor candidates."
+}

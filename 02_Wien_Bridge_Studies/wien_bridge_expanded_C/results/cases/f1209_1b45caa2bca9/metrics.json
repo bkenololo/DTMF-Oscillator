@@ -1,0 +1,19 @@
+{
+  "simulation_status": "ok",
+  "oscillation_status": "settled_oscillation",
+  "simulated_frequency_hz": 968.7302371976741,
+  "simulated_signed_error_percent": -19.873429512185766,
+  "simulated_abs_error_percent": 19.873429512185766,
+  "steady_state_vpp_v": 6.258504883373254,
+  "steady_state_dc_v": 2.9063303307956587e-05,
+  "envelope_change_fraction": 4.4359925509913136e-12,
+  "thd_2_to_10_percent": 3.911931982311559,
+  "fundamental_peak_v": 3.195059377474144,
+  "harmonic_fit_residual_rms_v": 0.0014032392514234263,
+  "settling_time_s": 0.02,
+  "maximum_abs_output_v": 3.1292749815085115,
+  "output_near_supply_rail": false,
+  "case_id": "f1209_1b45caa2bca9",
+  "fingerprint": "28a0aeb20566a736655eafb6b802472ce8dad9db476922114b303d2fe2ccc43b",
+  "elapsed_wall_s": 0.9700132500001928
+}

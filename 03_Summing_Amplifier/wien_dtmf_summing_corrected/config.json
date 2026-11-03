@@ -1,0 +1,89 @@
+{
+  "targets_hz": [
+    770,
+    1209
+  ],
+  "capacitance_nominal_f": 1e-08,
+  "capacitance_tolerances_fraction": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "primary_capacitance_tolerance_fraction": 0.1,
+  "capacitance_sweep_levels": [
+    -1,
+    0,
+    1
+  ],
+  "supply_magnitude_v": 12.0,
+  "temperature_c": 27.0,
+  "gain_ground_resistance_ohm": 10000,
+  "gain_feedback_fixed_ohm": 15000,
+  "gain_feedback_bypassed_ohm": 7500,
+  "output_load_ohm": 1000000.0,
+  "seed_current_a": 1e-07,
+  "seed_start_s": 1e-06,
+  "seed_duration_s": 1e-05,
+  "transient_stop_s": 0.5,
+  "maximum_time_step_s": 1.25e-06,
+  "analysis_window_s": 0.1,
+  "minimum_peak_to_peak_v": 0.1,
+  "settling_relative_vpp_limit": 0.02,
+  "harmonics_for_thd": 10,
+  "per_case_timeout_s": 60,
+  "workers": 8,
+  "summing_input_resistances_ohm": [
+    22000,
+    22000
+  ],
+  "summing_feedback_resistance_ohm": 10000,
+  "scope_input_capacitance_f": null,
+  "tolerance_grid_timestep_s": 5e-06,
+  "resistor_tolerance_percent_scenarios": [
+    1,
+    5,
+    10
+  ],
+  "primary_resistor_tolerance_percent": 1,
+  "capacitor_tolerance_percent_scenarios": [
+    1,
+    5,
+    10
+  ],
+  "primary_capacitor_tolerance_percent": 10,
+  "oscillator_parts_ohm": {
+    "low": {
+      "R1": [
+        20000,
+        620
+      ],
+      "R2": [
+        20000,
+        560
+      ]
+    },
+    "high": {
+      "R1": [
+        13000,
+        82
+      ],
+      "R2": [
+        13000,
+        110
+      ]
+    }
+  },
+  "capacitor_positions": [
+    "low_C1",
+    "low_C2",
+    "high_C1",
+    "high_C2"
+  ],
+  "audio_sample_rates_hz": [
+    48000,
+    8000
+  ],
+  "audio_fullscale_nominal_peak": 0.8,
+  "model_correlation_note": "Four independent copies of the supplied single-channel TL074 subcircuit share ideal supplies; package crosstalk and supply impedance are not modeled.",
+  "component_choice_basis": "User-pinned 5 us refinement table: 770 Hz R1=20620 R2=20560; 1209 Hz R1=13082 R2=13110. Components are not reselected by timestep."
+}

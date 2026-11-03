@@ -1,0 +1,26 @@
+* Extracted from Test_LowOscillator.asc and matching hierarchy
+XU_TEST.U1A U_TEST.WIEN U_TEST.N1 VCC VEE OSC_OUT TL074
+RU_TEST.R6 U_TEST.N2 OSC_OUT 15k
+RU_TEST.R7 U_TEST.N1 U_TEST.N2 7.5k
+XU_TEST.D1 U_TEST.N1 U_TEST.N2 1N4148
+XU_TEST.D2 U_TEST.N2 U_TEST.N1 1N4148
+RU_TEST.R5 U_TEST.N1 0 10k
+RU_TEST.R1 U_TEST.N3 OSC_OUT 20k
+RU_TEST.R2 U_TEST.N4 U_TEST.N3 620
+CU_TEST.C1 U_TEST.WIEN U_TEST.N4 10n
+RU_TEST.R3 U_TEST.WIEN U_TEST.N5 20k
+RU_TEST.R4 U_TEST.N5 0 560
+CU_TEST.C2 U_TEST.WIEN 0 10n
+IU_TEST.seed 0 U_TEST.WIEN PWL(0 0 1u 0 2u 100n 11u 100n 12u 0)
+RRload OSC_OUT 0 1Meg
+VVpositive VCC 0 12
+VVnegative VEE 0 -12
+.include "models.inc"
+.temp 27
+.options reltol=1e-5 abstol=1e-10 vntol=1e-7 method=trap plotwinsize=0
+.tran 1.25u 0.5 0 1.25u
+.save V(OSC_OUT)
+.meas tran T_osc TRIG V(OSC_OUT) VAL=0 RISE=1 TD=0.4 TARG V(OSC_OUT) VAL=0 RISE=2 TD=0.4
+.meas tran f_osc PARAM 1/T_osc
+.meas tran vpp_osc PP V(OSC_OUT) FROM 0.4 TO 0.5
+.end

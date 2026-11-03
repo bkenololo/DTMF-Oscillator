@@ -1,0 +1,60 @@
+{
+  "action": "Organization only; complete directory moves on the same filesystem, existing content preserved.",
+  "root": "/Users/bkent/Documents/Academic/ITB/Semester Ganjil 26:27/Elektronika II/2026/Proyek/Oscillator",
+  "moves": [
+    {
+      "original": "description-proyekII-elektronikaII.rtf",
+      "current": "01_Project_Documents/description-proyekII-elektronikaII.rtf",
+      "inode": 93764144,
+      "device": 16777232,
+      "is_directory": false,
+      "sha256": "81fc991f8a3f573d381f515df8ccd0e756211ef2cd5704fda705e541a933b4a1"
+    },
+    {
+      "original": "Perhitungan.docx",
+      "current": "01_Project_Documents/Perhitungan.docx",
+      "inode": 93764669,
+      "device": 16777232,
+      "is_directory": false,
+      "sha256": "2fd74e8028b3ed50cd219f9e8de206a0b35e4e6a0d0467ceaf836e12cc2942ad"
+    },
+    {
+      "original": "wien_bridge_lookup",
+      "current": "02_Wien_Bridge_Studies/wien_bridge_lookup",
+      "inode": 93865858,
+      "device": 16777232,
+      "is_directory": true
+    },
+    {
+      "original": "wien_bridge_expanded_C",
+      "current": "02_Wien_Bridge_Studies/wien_bridge_expanded_C",
+      "inode": 94081357,
+      "device": 16777232,
+      "is_directory": true
+    },
+    {
+      "original": "wien_dtmf_summing_corrected",
+      "current": "03_Summing_Amplifier/wien_dtmf_summing_corrected",
+      "inode": 94290312,
+      "device": 16777232,
+      "is_directory": true
+    },
+    {
+      "original": "TL074.301",
+      "current": "04_Original_Device_Models/TL074.301",
+      "inode": 93802269,
+      "device": 16777232,
+      "is_directory": false,
+      "sha256": "a5f384a32ed660490d7ad57b82ddad836dfcf3b462d9dd8987e8fd4de603b1f3"
+    }
+  ],
+  "added_navigation_files": [
+    "00_START_HERE.html",
+    "README.md",
+    "02_Wien_Bridge_Studies/README.md",
+    "03_Summing_Amplifier/README.md",
+    "04_Original_Device_Models/README.md"
+  ],
+  "simulation_values_changed": false,
+  "existing_files_deleted": false
+}

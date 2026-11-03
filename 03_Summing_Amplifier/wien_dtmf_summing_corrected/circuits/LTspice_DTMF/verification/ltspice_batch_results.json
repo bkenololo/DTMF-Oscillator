@@ -1,0 +1,22 @@
+[
+  {
+    "circuit": "DTMF4",
+    "returncode": 0,
+    "log_tail": "LTspice 17.2.4 for MacOS\nCircuit: * Extracted from DTMF4.asc and matching hierarchy\nStart Time: Mon Nov  2 19:59:21 2026\nsolver = Normal\nMaximum thread count: 1\ntnom = 27\ntemp = 27\nmethod = modified trap\nabstol = 1e-10\nreltol = 1e-05\nvolttol = 1e-07\nEarly termination of direct N-R iteration.\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nvernier = 0.5\nvernier = 0.25\nvernier = 0.125\nGmin = 5.5165\nvernier = 0.0625\nvernier = 0.03125\nvernier = 0.015625\nvernier = 0.0078125\nGmin = 5.49501\nvernier = 0.00390625\nvernier = 0.00195312\nvernier = 0.000976562\nvernier = 0.000488281\nGmin = 5.50104\nGmin = 0\nGmin stepping failed\n\nStarting source stepping with srcstepmethod=0\nSource Step = 3.0303%\nSource Step = 33.3333%\nSource Step = 63.6364%\nSource Step = 93.9394%\nSource stepping succeeded in finding the operating point.\n\n\nt_low=0.00129936 FROM 0.400112 TO 0.401411\nf_low: 1/t_low=769.612\nvpp_low: PP(v(low_out))=6.06231 FROM 0.4 TO 0.5\nt_high=0.000826985 FROM 0.400209 TO 0.401036\nf_high: 1/t_high=1209.21\nvpp_high: PP(v(high_out))=6.14397 FROM 0.4 TO 0.5\nvpp_dtmf: PP(v(dtmf_out))=5.54825 FROM 0.4 TO 0.5\n\nTotal elapsed time: 7.593 seconds.\n\n"
+  },
+  {
+    "circuit": "Test_LowOscillator",
+    "returncode": 0,
+    "log_tail": "LTspice 17.2.4 for MacOS\nCircuit: * Extracted from Test_LowOscillator.asc and matching hierarchy\nStart Time: Mon Nov  2 19:59:21 2026\nsolver = Normal\nMaximum thread count: 1\ntnom = 27\ntemp = 27\nmethod = modified trap\nabstol = 1e-10\nreltol = 1e-05\nvolttol = 1e-07\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nvernier = 0.5\nvernier = 0.25\nvernier = 0.125\nGmin = 5.5165\nvernier = 0.0625\nvernier = 0.03125\nvernier = 0.015625\nvernier = 0.0078125\nGmin = 5.49501\nvernier = 0.00390625\nvernier = 0.00195312\nvernier = 0.000976562\nvernier = 0.000488281\nGmin = 5.50104\nGmin = 0\nGmin stepping failed\n\nStarting source stepping with srcstepmethod=0\nSource Step = 3.0303%\nSource Step = 33.3333%\nSource Step = 63.6364%\nSource Step = 93.9394%\nSource stepping succeeded in finding the operating point.\n\n\nt_osc=0.00129935 FROM 0.400109 TO 0.401409\nf_osc: 1/t_osc=769.617\nvpp_osc: PP(v(osc_out))=6.06232 FROM 0.4 TO 0.5\n\nTotal elapsed time: 1.906 seconds.\n\n"
+  },
+  {
+    "circuit": "Test_HighOscillator",
+    "returncode": 0,
+    "log_tail": "LTspice 17.2.4 for MacOS\nCircuit: * Extracted from Test_HighOscillator.asc and matching hierarchy\nStart Time: Mon Nov  2 19:59:21 2026\nsolver = Normal\nMaximum thread count: 1\ntnom = 27\ntemp = 27\nmethod = modified trap\nabstol = 1e-10\nreltol = 1e-05\nvolttol = 1e-07\nDirect Newton iteration failed to find .op point.  (Use \".option noopiter\" to skip.)\nStarting Gmin stepping\nGmin = 10\nvernier = 0.5\nvernier = 0.25\nvernier = 0.125\nGmin = 5.5165\nvernier = 0.0625\nvernier = 0.03125\nvernier = 0.015625\nvernier = 0.0078125\nGmin = 5.49501\nvernier = 0.00390625\nvernier = 0.00195312\nvernier = 0.000976562\nvernier = 0.000488281\nGmin = 5.50104\nGmin = 0\nGmin stepping failed\n\nStarting source stepping with srcstepmethod=0\nSource Step = 3.0303%\nSource Step = 33.3333%\nSource Step = 63.6364%\nSource Step = 93.9394%\nSource stepping succeeded in finding the operating point.\n\n\nt_osc=0.000826976 FROM 0.400205 TO 0.401032\nf_osc: 1/t_osc=1209.22\nvpp_osc: PP(v(osc_out))=6.14398 FROM 0.4 TO 0.5\n\nTotal elapsed time: 1.865 seconds.\n\n"
+  },
+  {
+    "circuit": "Test_SummingAmplifier",
+    "returncode": 0,
+    "log_tail": "LTspice 17.2.4 for MacOS\nCircuit: * Extracted from Test_SummingAmplifier.asc and matching hierarchy\nStart Time: Mon Nov  2 19:59:21 2026\nsolver = Normal\nMaximum thread count: 1\ntnom = 27\ntemp = 27\nmethod = modified trap\nabstol = 1e-10\nreltol = 1e-05\nvolttol = 1e-07\nDirect Newton iteration for .op point succeeded.\n\nvpp_sum: PP(v(sum_out))=5.45426 FROM 0.4 TO 0.5\n\nTotal elapsed time: 1.594 seconds.\n\n"
+  }
+]
